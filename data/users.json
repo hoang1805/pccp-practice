@@ -1,5 +1,22 @@
 {
   "schemaVersion": 1,
-  "users": [],
+  "users": [
+    {
+      "id": "u_876e4ca739ed",
+      "githubId": 150009125,
+      "githubLogin": "hoang1805",
+      "displayName": "hoang1805",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150009125?v=4",
+      "role": "ADMIN",
+      "active": true,
+      "primaryLanguage": null,
+      "targetScore": null,
+      "timezone": "Asia/Saigon",
+      "joinedAt": "2026-08-30T23:53:23.329Z",
+      "lastActiveAt": "2026-08-30T23:53:23.329Z",
+      "deletedAt": null,
+      "updatedAt": "2026-08-30T23:53:23.329Z"
+    }
+  ],
   "pendingJoins": []
 }
