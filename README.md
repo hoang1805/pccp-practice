@@ -53,8 +53,12 @@ git remote add origin https://github.com/<owner>/<repo>.git
 git push -u origin main
 ```
 
-Vào **Settings → Pages → Source: GitHub Actions**. Workflow
-[`pages.yml`](.github/workflows/pages.yml) sẽ deploy nguyên trạng repo — không có bước build.
+Workflow [`pages.yml`](.github/workflows/pages.yml) tự bật GitHub Pages
+(`configure-pages` với `enablement: true`) rồi deploy nguyên trạng repo — không có bước build.
+
+Nếu lần deploy đầu vẫn báo `Get Pages site failed … Not Found` — thường do tổ chức
+hạn chế quyền bật Pages tự động — hãy vào **Settings → Pages → Source: GitHub Actions**
+rồi chạy lại workflow.
 
 Ứng dụng tự nhận ra `owner/repo` từ URL `https://<owner>.github.io/<repo>/`,
 nên không cần cấu hình gì thêm.
@@ -151,6 +155,11 @@ node scripts/check-imports.mjs   # đối chiếu import với export
 
 Không có bước build và không có dependency runtime — mã nguồn là ES module chạy thẳng
 trên trình duyệt. `package.json` chỉ dùng cho script phát triển.
+
+> `npm test` gọi [`scripts/run-tests.mjs`](scripts/run-tests.mjs) chứ không gọi thẳng
+> `node --test "tests/*.test.mjs"`: glob nội bộ của test runner chỉ có từ **Node 22**,
+> còn truyền thư mục thì không chạy trên mọi nền tảng. Script tự dò file rồi truyền
+> đường dẫn tường minh, nên chạy được ở mọi phiên bản Node.
 
 ### Kiến trúc
 

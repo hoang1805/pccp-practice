@@ -27,7 +27,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # `enablement: true` tự bật GitHub Pages và đặt nguồn build là Actions,
+      # nên không cần vào Settings → Pages thao tác tay trước lần deploy đầu.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

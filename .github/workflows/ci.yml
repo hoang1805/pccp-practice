@@ -22,7 +22,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       # Không có dependency nào — dự án chạy thẳng bằng ES module,
       # không cần bước build (ràng buộc CON-03).
@@ -31,14 +31,14 @@ jobs:
           fail=0
           while IFS= read -r f; do
             node --check "$f" || { echo "::error file=$f::lỗi cú pháp"; fail=1; }
-          done < <(find assets/js scripts -name '*.js' -o -name '*.mjs')
+          done < <(find assets/js scripts \( -name '*.js' -o -name '*.mjs' \))
           exit $fail
 
       - name: Đối chiếu import với export
         run: node scripts/check-imports.mjs
 
       - name: Unit test quy tắc nghiệp vụ
-        run: node --test "tests/*.test.mjs"
+        run: npm test
 
       - name: Index bài tập khớp nguồn
         run: node scripts/build-index.mjs --check
