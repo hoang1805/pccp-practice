@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0002",
+  "title": "Nén chuỗi lặp liên tiếp",
+  "level": 1,
+  "tags": [
+    "string",
+    "two-pointers"
+  ],
+  "estimatedMinutes": 18,
+  "statementMd": "Cho chuỗi `s` chỉ gồm chữ cái thường. Hãy nén chuỗi bằng cách thay mỗi\nnhóm ký tự giống nhau liên tiếp bằng `<ký tự><số lần>`, nhưng **chỉ khi**\nsố lần xuất hiện lớn hơn 1.\n\nNếu chuỗi nén không ngắn hơn chuỗi gốc, trả về chuỗi gốc.",
+  "constraintsMd": "- `1 ≤ s.length ≤ 200000`\n- `s` chỉ chứa `a`–`z`.",
+  "samples": [
+    {
+      "input": "s = \"aaabbccccd\"",
+      "output": "\"a3b2c4d\""
+    },
+    {
+      "input": "s = \"abcd\"",
+      "output": "\"abcd\"",
+      "explanation": "Nén lại dài hơn nên giữ nguyên."
+    }
+  ],
+  "difficultyNote": "Đừng quên xử lý nhóm cuối cùng sau khi thoát vòng lặp.",
+  "recommendedLanguages": [
+    "Python",
+    "JavaScript"
+  ],
+  "sourceUrl": "",
+  "sourceNote": "Đề do dự án tự soạn, không sao chép từ nguồn có bản quyền.",
+  "archived": false,
+  "createdBy": null,
+  "createdAt": "2026-08-30T17:31:26.507Z",
+  "updatedAt": "2026-08-30T17:31:26.507Z"
+}

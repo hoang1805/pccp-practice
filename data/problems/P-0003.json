@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0003",
+  "title": "Xếp lịch họp nhiều phòng",
+  "level": 2,
+  "tags": [
+    "greedy",
+    "sorting",
+    "heap"
+  ],
+  "estimatedMinutes": 35,
+  "statementMd": "Cho danh sách `meetings`, mỗi phần tử là `[start, end]` (thời điểm bắt đầu và kết thúc).\nMột phòng chỉ tổ chức được một cuộc họp tại một thời điểm; cuộc họp kết thúc lúc `t`\nvà cuộc họp khác bắt đầu lúc `t` thì **dùng chung phòng được**.\n\nHãy tìm **số phòng tối thiểu** để tổ chức được toàn bộ cuộc họp.",
+  "constraintsMd": "- `1 ≤ meetings.length ≤ 200000`\n- `0 ≤ start < end ≤ 10^9`",
+  "samples": [
+    {
+      "input": "meetings = [[0,30],[5,10],[15,20]]",
+      "output": "2"
+    },
+    {
+      "input": "meetings = [[7,10],[2,4]]",
+      "output": "1"
+    }
+  ],
+  "difficultyNote": "Có hai lời giải đẹp: min-heap theo thời điểm kết thúc, hoặc sweep line.",
+  "recommendedLanguages": [
+    "Python",
+    "Java"
+  ],
+  "sourceUrl": "",
+  "sourceNote": "Đề do dự án tự soạn, không sao chép từ nguồn có bản quyền.",
+  "archived": false,
+  "createdBy": null,
+  "createdAt": "2026-08-30T17:31:26.507Z",
+  "updatedAt": "2026-08-30T17:31:26.507Z"
+}

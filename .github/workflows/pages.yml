@@ -1,0 +1,37 @@
+name: Deploy GitHub Pages
+
+# Deploy nguyên trạng thư mục repo — không có bước build.
+# Dữ liệu trong data/ được phục vụ cùng site và cũng chính là "database".
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Deploy tuần tự; không huỷ lần đang chạy để tránh publish dở dang.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

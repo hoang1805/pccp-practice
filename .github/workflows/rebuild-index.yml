@@ -1,0 +1,39 @@
+name: Sinh lại index bài tập
+
+# Ứng dụng tự cập nhật data/problems/_index.json khi admin tạo/sửa bài,
+# nên bình thường không cần workflow này. Dùng khi ai đó sửa file bài tập
+# bằng tay và CI báo index lệch.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sinh lại index
+        run: node scripts/build-index.mjs
+
+      - name: Kiểm tra dữ liệu sau khi sinh
+        run: node scripts/validate-data.mjs
+
+      - name: Commit nếu có thay đổi
+        run: |
+          if git diff --quiet -- data/problems/_index.json; then
+            echo "Index đã khớp — không có gì để commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/problems/_index.json
+          git commit -m "data(problem): sinh lại index bài tập"
+          git push

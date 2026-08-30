@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0001",
+  "title": "Đếm số cặp có tổng chia hết cho k",
+  "level": 1,
+  "tags": [
+    "array",
+    "hash",
+    "math"
+  ],
+  "estimatedMinutes": 20,
+  "statementMd": "Cho một mảng số nguyên `nums` và một số nguyên dương `k`.\n\nHãy đếm số **cặp chỉ số** `(i, j)` với `i < j` sao cho `nums[i] + nums[j]` chia hết cho `k`.\n\n**Gợi ý hướng nghĩ:** hai số cộng lại chia hết cho `k` khi phần dư của chúng bù nhau.",
+  "constraintsMd": "- `2 ≤ nums.length ≤ 100000`\n- `-10^9 ≤ nums[i] ≤ 10^9`\n- `1 ≤ k ≤ 1000`\n- Cẩn thận với số âm khi lấy phần dư.",
+  "samples": [
+    {
+      "input": "nums = [1, 2, 3, 4, 5], k = 3",
+      "output": "4",
+      "explanation": "Các cặp: (1,2), (1,5), (2,4), (4,5)."
+    },
+    {
+      "input": "nums = [-1, 1, 3], k = 2",
+      "output": "3",
+      "explanation": "Mọi cặp đều có tổng chẵn."
+    }
+  ],
+  "difficultyNote": "Bẫy chính là phép chia dư với số âm trong C/C++/Java.",
+  "recommendedLanguages": [
+    "Python",
+    "C++"
+  ],
+  "sourceUrl": "",
+  "sourceNote": "Đề do dự án tự soạn, không sao chép từ nguồn có bản quyền.",
+  "archived": false,
+  "createdBy": null,
+  "createdAt": "2026-08-30T17:31:26.507Z",
+  "updatedAt": "2026-08-30T17:31:26.507Z"
+}

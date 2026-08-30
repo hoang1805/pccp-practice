@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0004",
+  "title": "Chia kẹo công bằng nhất",
+  "level": 2,
+  "tags": [
+    "binary-search",
+    "greedy"
+  ],
+  "estimatedMinutes": 30,
+  "statementMd": "Có `n` gói kẹo, gói thứ `i` chứa `candies[i]` viên. Cần chia cho `k` bạn nhỏ,\nmỗi bạn nhận **đúng một phần** gồm các viên lấy từ **cùng một gói**\n(một gói có thể chia cho nhiều bạn, phần thừa bỏ đi).\n\nHãy tìm số viên **lớn nhất** mà mỗi bạn có thể nhận, sao cho cả `k` bạn đều nhận được\nsố viên bằng nhau. Nếu không chia được, trả về `0`.",
+  "constraintsMd": "- `1 ≤ candies.length ≤ 100000`\n- `1 ≤ candies[i] ≤ 10^7`\n- `1 ≤ k ≤ 10^12`",
+  "samples": [
+    {
+      "input": "candies = [5,8,6], k = 3",
+      "output": "5",
+      "explanation": "Gói 8 chia được 1 phần 5, gói 6 chia được 1 phần 5, gói 5 chia được 1 phần 5."
+    },
+    {
+      "input": "candies = [2,5], k = 11",
+      "output": "0"
+    }
+  ],
+  "difficultyNote": "k rất lớn nên đừng dùng vòng lặp theo k. Nhị phân trên đáp án.",
+  "recommendedLanguages": [
+    "C++",
+    "Python"
+  ],
+  "sourceUrl": "",
+  "sourceNote": "Đề do dự án tự soạn, không sao chép từ nguồn có bản quyền.",
+  "archived": false,
+  "createdBy": null,
+  "createdAt": "2026-08-30T17:31:26.507Z",
+  "updatedAt": "2026-08-30T17:31:26.507Z"
+}

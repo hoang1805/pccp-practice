@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "exam": {
+    "durationMinutes": 120,
+    "slots": [
+      {
+        "slot": "L1",
+        "level": 1,
+        "points": 300
+      },
+      {
+        "slot": "L2",
+        "level": 2,
+        "points": 200
+      },
+      {
+        "slot": "L3A",
+        "level": 3,
+        "points": 200
+      },
+      {
+        "slot": "L3B",
+        "level": 3,
+        "points": 300
+      }
+    ],
+    "totalPoints": 1000,
+    "languages": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "C",
+      "C++",
+      "C#"
+    ],
+    "gradeThresholds": [
+      {
+        "grade": "Lv.5",
+        "minScore": null
+      },
+      {
+        "grade": "Lv.4",
+        "minScore": null
+      },
+      {
+        "grade": "Lv.3",
+        "minScore": null
+      },
+      {
+        "grade": "Lv.2",
+        "minScore": null
+      },
+      {
+        "grade": "Lv.1",
+        "minScore": null
+      }
+    ]
+  },
+  "features": {
+    "leaderboardEnabled": true,
+    "autoGrantOnApprovedIdea": false,
+    "publicApprovedIdeas": false,
+    "hardStuckAlertHours": 48
+  },
+  "updatedAt": "2026-08-30T17:31:26.507Z",
+  "updatedBy": null
+}

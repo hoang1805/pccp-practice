@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0007",
+  "title": "Khôi phục cây từ hai thứ tự duyệt",
+  "level": 3,
+  "tags": [
+    "tree",
+    "recursion",
+    "hash"
+  ],
+  "estimatedMinutes": 40,
+  "statementMd": "Cho hai mảng `preorder` và `inorder` là kết quả duyệt trước và duyệt giữa của\nmột cây nhị phân có **các giá trị đôi một khác nhau**.\n\nHãy khôi phục cây và trả về kết quả **duyệt sau** (postorder) của nó.",
+  "constraintsMd": "- `1 ≤ n ≤ 100000`\n- Hai mảng luôn hợp lệ và mô tả cùng một cây.\n- Đệ quy sâu có thể tràn stack với cây suy biến.",
+  "samples": [
+    {
+      "input": "preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]",
+      "output": "[9,15,7,20,3]"
+    },
+    {
+      "input": "preorder = [1], inorder = [1]",
+      "output": "[1]"
+    }
+  ],
+  "difficultyNote": "Dùng map giá trị → vị trí trong inorder để tránh tìm tuyến tính. Cây suy biến làm độ sâu đệ quy tới 100000.",
+  "recommendedLanguages": [
+    "C++",
+    "Java"
+  ],
+  "sourceUrl": "",
+  "sourceNote": "Đề do dự án tự soạn, không sao chép từ nguồn có bản quyền.",
+  "archived": false,
+  "createdBy": null,
+  "createdAt": "2026-08-30T17:31:26.507Z",
+  "updatedAt": "2026-08-30T17:31:26.507Z"
+}

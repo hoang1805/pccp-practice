@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0005",
+  "title": "Đường đi rẻ nhất trong lưới có cổng dịch chuyển",
+  "level": 3,
+  "tags": [
+    "graph",
+    "bfs",
+    "dijkstra",
+    "grid"
+  ],
+  "estimatedMinutes": 50,
+  "statementMd": "Cho lưới `n × m`. Mỗi ô là một trong:\n\n- `.` — ô trống, đi vào tốn **1** đơn vị\n- `#` — tường, không đi vào được\n- chữ cái `a`–`z` — **cổng dịch chuyển**\n\nBạn xuất phát từ ô `(0, 0)` và cần tới ô `(n-1, m-1)`. Mỗi bước đi sang ô kề cạnh.\nNgoài ra, khi đang đứng trên một cổng, bạn có thể dịch chuyển tức thời tới **bất kỳ\ncổng nào cùng chữ cái** với chi phí **0**.\n\nHãy tính tổng chi phí nhỏ nhất, hoặc `-1` nếu không tới được.",
+  "constraintsMd": "- `1 ≤ n, m ≤ 1000`\n- Ô xuất phát và ô đích luôn không phải tường.\n- Có tối đa 26 loại cổng.",
+  "samples": [
+    {
+      "input": "grid = [\".a.\", \"###\", \".a.\"]",
+      "output": "3",
+      "explanation": "Đi (0,0)→(0,1) tốn 1, dịch chuyển xuống (2,1) tốn 0, rồi sang (2,2) tốn 1. Cộng ô đích: 3."
+    },
+    {
+      "input": "grid = [\"..\", \"##\"]",
+      "output": "-1"
+    }
+  ],
+  "difficultyNote": "Cạnh có trọng số 0 và 1 nên 0-1 BFS với deque là đủ, không cần Dijkstra đầy đủ. Nhớ đánh dấu mỗi nhóm cổng chỉ \"xả\" một lần để không bị O(n²).",
+  "recommendedLanguages": [
+    "C++",
+    "Python"
+  ],
+  "sourceUrl": "",
+  "sourceNote": "Đề do dự án tự soạn, không sao chép từ nguồn có bản quyền.",
+  "archived": false,
+  "createdBy": null,
+  "createdAt": "2026-08-30T17:31:26.507Z",
+  "updatedAt": "2026-08-30T17:31:26.507Z"
+}

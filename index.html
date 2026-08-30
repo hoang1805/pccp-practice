@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' https://cdnjs.cloudflare.com;
+  style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+  img-src 'self' https://avatars.githubusercontent.com https://*.githubusercontent.com data:;
+  connect-src 'self' https://api.github.com https://raw.githubusercontent.com;
+  font-src 'self' data:;
+  object-src 'none';
+  base-uri 'self';
+  form-action 'none';
+">
+<title>PCCP Practicing</title>
+<meta name="description" content="Nền tảng luyện tập &amp; theo dõi tiến độ thi PCCP">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8E%AF%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+
+<div id="app-shell">
+  <header id="app-header" hidden></header>
+  <main id="main" tabindex="-1">
+    <div class="boot-splash">
+      <div class="spinner" aria-hidden="true"></div>
+      <p>Đang khởi động…</p>
+    </div>
+  </main>
+  <footer id="app-footer" hidden></footer>
+</div>
+
+<div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+<div id="modal-root"></div>
+
+<noscript>
+  <div style="padding:2rem;max-width:40rem;margin:0 auto;font-family:system-ui">
+    <h1>Cần bật JavaScript</h1>
+    <p>PCCP Practicing là ứng dụng chạy hoàn toàn phía trình duyệt. Vui lòng bật JavaScript để tiếp tục.</p>
+  </div>
+</noscript>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "problemId": "P-0005",
+  "hints": [
+    {
+      "id": "H-0001",
+      "level": 1,
+      "targetUserId": null,
+      "contentMd": "Chi phí di chuyển ở đây có phải lúc nào cũng như nhau không? Hãy để ý loại cạnh nào tốn 0.",
+      "createdBy": null,
+      "createdAt": "2026-08-30T17:31:26.507Z",
+      "updatedAt": "2026-08-30T17:31:26.507Z",
+      "feedback": null
+    },
+    {
+      "id": "H-0002",
+      "level": 2,
+      "targetUserId": null,
+      "contentMd": "Đồ thị chỉ có cạnh trọng số 0 và 1 → **0-1 BFS** với `deque`: cạnh 0 đẩy vào đầu, cạnh 1 đẩy vào cuối. Không cần Dijkstra với heap.",
+      "createdBy": null,
+      "createdAt": "2026-08-30T17:31:26.507Z",
+      "updatedAt": "2026-08-30T17:31:26.507Z",
+      "feedback": null
+    },
+    {
+      "id": "H-0003",
+      "level": 3,
+      "targetUserId": null,
+      "contentMd": "Nếu vẫn TLE: mỗi nhóm cổng cùng chữ cái chỉ được \"xả\" **một lần** trong suốt thuật toán. Giữ một `set` các chữ cái đã xử lý, nếu không độ phức tạp thành O((n·m)²).",
+      "createdBy": null,
+      "createdAt": "2026-08-30T17:31:26.507Z",
+      "updatedAt": "2026-08-30T17:31:26.507Z",
+      "feedback": null
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# Bản sao lưu tải về từ màn hình Cấu hình
+pccp-backup-*.json
+pccp-problems-*.json
+pccp-progress-*.csv

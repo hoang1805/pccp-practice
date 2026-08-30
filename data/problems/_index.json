@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-30T17:31:26.507Z",
+  "problems": [
+    {
+      "id": "P-0001",
+      "title": "Đếm số cặp có tổng chia hết cho k",
+      "level": 1,
+      "tags": [
+        "array",
+        "hash",
+        "math"
+      ],
+      "estimatedMinutes": 20,
+      "archived": false,
+      "updatedAt": "2026-08-30T17:31:26.507Z"
+    },
+    {
+      "id": "P-0002",
+      "title": "Nén chuỗi lặp liên tiếp",
+      "level": 1,
+      "tags": [
+        "string",
+        "two-pointers"
+      ],
+      "estimatedMinutes": 18,
+      "archived": false,
+      "updatedAt": "2026-08-30T17:31:26.507Z"
+    },
+    {
+      "id": "P-0003",
+      "title": "Xếp lịch họp nhiều phòng",
+      "level": 2,
+      "tags": [
+        "greedy",
+        "sorting",
+        "heap"
+      ],
+      "estimatedMinutes": 35,
+      "archived": false,
+      "updatedAt": "2026-08-30T17:31:26.507Z"
+    },
+    {
+      "id": "P-0004",
+      "title": "Chia kẹo công bằng nhất",
+      "level": 2,
+      "tags": [
+        "binary-search",
+        "greedy"
+      ],
+      "estimatedMinutes": 30,
+      "archived": false,
+      "updatedAt": "2026-08-30T17:31:26.507Z"
+    },
+    {
+      "id": "P-0005",
+      "title": "Đường đi rẻ nhất trong lưới có cổng dịch chuyển",
+      "level": 3,
+      "tags": [
+        "graph",
+        "bfs",
+        "dijkstra",
+        "grid"
+      ],
+      "estimatedMinutes": 50,
+      "archived": false,
+      "updatedAt": "2026-08-30T17:31:26.507Z"
+    },
+    {
+      "id": "P-0006",
+      "title": "Chia đội cân bằng sức mạnh",
+      "level": 3,
+      "tags": [
+        "dp",
+        "subset-sum",
+        "bitset"
+      ],
+      "estimatedMinutes": 45,
+      "archived": false,
+      "updatedAt": "2026-08-30T17:31:26.507Z"
+    },
+    {
+      "id": "P-0007",
+      "title": "Khôi phục cây từ hai thứ tự duyệt",
+      "level": 3,
+      "tags": [
+        "tree",
+        "recursion",
+        "hash"
+      ],
+      "estimatedMinutes": 40,
+      "archived": false,
+      "updatedAt": "2026-08-30T17:31:26.507Z"
+    }
+  ]
+}

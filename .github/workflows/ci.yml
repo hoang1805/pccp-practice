@@ -1,0 +1,47 @@
+name: CI
+
+# Kiểm tra toàn vẹn dữ liệu và quy tắc nghiệp vụ.
+# Đây KHÔNG phải kiểm soát truy cập — dự án cố ý không cưỡng chế phân quyền
+# ở tầng lưu trữ (xem docs/SRS.md, DEC-03).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Kiểm tra dữ liệu và mã nguồn
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Không có dependency nào — dự án chạy thẳng bằng ES module,
+      # không cần bước build (ràng buộc CON-03).
+      - name: Kiểm tra cú pháp toàn bộ module
+        run: |
+          fail=0
+          while IFS= read -r f; do
+            node --check "$f" || { echo "::error file=$f::lỗi cú pháp"; fail=1; }
+          done < <(find assets/js scripts -name '*.js' -o -name '*.mjs')
+          exit $fail
+
+      - name: Đối chiếu import với export
+        run: node scripts/check-imports.mjs
+
+      - name: Unit test quy tắc nghiệp vụ
+        run: node --test "tests/*.test.mjs"
+
+      - name: Index bài tập khớp nguồn
+        run: node scripts/build-index.mjs --check
+
+      - name: Toàn vẹn dữ liệu (INT-01…INT-12)
+        run: node scripts/validate-data.mjs

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0006",
+  "title": "Chia đội cân bằng sức mạnh",
+  "level": 3,
+  "tags": [
+    "dp",
+    "subset-sum",
+    "bitset"
+  ],
+  "estimatedMinutes": 45,
+  "statementMd": "Có `n` thành viên, người thứ `i` có sức mạnh `power[i]`. Cần chia **toàn bộ** thành viên\nvào đúng hai đội (mỗi đội có thể rỗng).\n\nHãy tìm **chênh lệch nhỏ nhất** giữa tổng sức mạnh của hai đội.",
+  "constraintsMd": "- `1 ≤ n ≤ 200`\n- `1 ≤ power[i] ≤ 1000`",
+  "samples": [
+    {
+      "input": "power = [1, 6, 11, 5]",
+      "output": "1",
+      "explanation": "{1,5,6} và {11} → |12 - 11| = 1."
+    },
+    {
+      "input": "power = [10]",
+      "output": "10"
+    }
+  ],
+  "difficultyNote": "Tổng tối đa 200000 nên quy hoạch động theo tổng con là khả thi. Dùng bitset để tăng tốc nếu cần.",
+  "recommendedLanguages": [
+    "C++",
+    "Python"
+  ],
+  "sourceUrl": "",
+  "sourceNote": "Đề do dự án tự soạn, không sao chép từ nguồn có bản quyền.",
+  "archived": false,
+  "createdBy": null,
+  "createdAt": "2026-08-30T17:31:26.507Z",
+  "updatedAt": "2026-08-30T17:31:26.507Z"
+}
