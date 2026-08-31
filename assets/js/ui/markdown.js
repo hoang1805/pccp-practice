@@ -10,7 +10,10 @@ import { escapeHtml } from '../core/util.js';
 
 const CDN = 'https://cdnjs.cloudflare.com/ajax/libs';
 const SCRIPTS = {
-  markdownit: `${CDN}/markdown-it/14.1.0/markdown-it.min.js`,
+  // cdnjs không có bản build nào cho markdown-it 14.x (thư mục rỗng → 404),
+  // nên phải ghim 13.0.2 — bản mới nhất thực sự tải được. Đừng nâng lên 14 nếu
+  // chưa kiểm tra URL trả về 200.
+  markdownit: `${CDN}/markdown-it/13.0.2/markdown-it.min.js`,
   purify:     `${CDN}/dompurify/3.1.6/purify.min.js`,
   hljs:       `${CDN}/highlight.js/11.10.0/highlight.min.js`,
 };
@@ -73,6 +76,9 @@ export function initMarkdown() {
     } catch (err) {
       console.warn('[markdown] không tải được markdown-it, chuyển sang chế độ văn bản thuần.', err);
     }
+
+    // Trang có thể đã dựng xong trước thời điểm này — vá lại các khối dự phòng.
+    refreshPendingMarkdown();
   })();
 
   return readyPromise;
@@ -101,7 +107,7 @@ export function renderMarkdown(src) {
 
   if (!mdInstance || !purifier) {
     // Chế độ dự phòng: giữ nguyên xuống dòng, escape toàn bộ.
-    return `<pre class="md-plain">${escapeHtml(text)}</pre>`;
+    return `<pre class="md-plain" data-md-src="${escapeHtml(text)}">${escapeHtml(text)}</pre>`;
   }
 
   const dirty = mdInstance.render(text);
@@ -109,14 +115,35 @@ export function renderMarkdown(src) {
   return clean;
 }
 
+/** Link ngoài mở tab mới và không rò referrer. */
+function decorateLinks(el) {
+  for (const a of el.querySelectorAll('a[href^="http"]')) {
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer nofollow';
+  }
+}
+
 /** Gán markdown đã render vào một phần tử. */
 export function mountMarkdown(el, src) {
   if (!el) return;
   el.innerHTML = renderMarkdown(src);
-  // Link ngoài mở tab mới và không rò referrer.
-  for (const a of el.querySelectorAll('a[href^="http"]')) {
-    a.target = '_blank';
-    a.rel = 'noopener noreferrer nofollow';
+  decorateLinks(el);
+}
+
+/**
+ * Render lại những khối đã rơi về chế độ văn bản thuần.
+ *
+ * Trang thường dựng xong trước khi thư viện từ CDN tải xong (initMarkdown chạy
+ * song song, không chặn router). Thiếu bước này thì đề bài sẽ mãi hiển thị
+ * Markdown thô. Mỗi khối dự phòng giữ nguyên nguồn trong `data-md-src`.
+ */
+export function refreshPendingMarkdown(root = document) {
+  if (!markdownReady() || !root || typeof root.querySelectorAll !== 'function') return;
+  for (const node of [...root.querySelectorAll('[data-md-src]')]) {
+    const holder = document.createElement('div');
+    holder.innerHTML = renderMarkdown(node.getAttribute('data-md-src'));
+    decorateLinks(holder);
+    node.replaceWith(...holder.childNodes);
   }
 }
 
