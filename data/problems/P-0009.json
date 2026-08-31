@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0009",
+  "title": "타겟 넘버",
+  "level": 2,
+  "tags": [],
+  "statementMd": "Cho một mảng numbers gồm các số nguyên dương.\n\nVới mỗi phần tử trong mảng, bạn phải chọn một trong hai phép toán:\n\nCộng số đó vào tổng hiện tại.\nTrừ số đó khỏi tổng hiện tại.\nBạn phải sử dụng tất cả các phần tử theo đúng thứ tự ban đầu.\n\nHãy đếm số cách gán dấu + hoặc - cho các phần tử sao cho kết quả cuối cùng bằng target.",
+  "constraintsMd": "",
+  "samples": [],
+  "sourceUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/43165",
+  "sourceNote": "Bài này làm rồi nè",
+  "difficultyNote": "",
+  "recommendedLanguages": [
+    "JavaScript"
+  ],
+  "estimatedMinutes": 8,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-08-31T03:27:14.189Z",
+  "updatedAt": "2026-08-31T03:27:14.189Z"
+}
