@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "P-0008",
   "title": "미로 탈출 명령어",
-  "level": 1,
+  "level": 3,
   "tags": [],
   "statementMd": "Cho một mê cung dạng lưới có:\n\nn hàng và m cột.\nVị trí bắt đầu là (x, y).\nVị trí cần đến là (r, c).\nBạn phải di chuyển chính xác k bước.\n\nMỗi bước, bạn được di chuyển sang một ô liền kề theo bốn hướng:\n\nKý tự\tHướng di chuyển\nd\tXuống dưới\nl\tSang trái\nr\tSang phải\nu\tLên trên\n\nBạn không được đi ra ngoài phạm vi của lưới, nhưng được phép đi qua một ô nhiều lần, kể cả ô bắt đầu và ô đích.\n\n### Yêu cầu\n\nHãy tìm một chuỗi gồm đúng k ký tự biểu diễn đường đi từ (x, y) đến (r, c).\n\nNếu có nhiều đường đi hợp lệ, trả về đường đi nhỏ nhất theo thứ tự từ điển.\n\nThứ tự xét các ký tự là: `d < l < r < u`\n\nNếu không tồn tại đường đi thỏa mãn tất cả điều kiện, trả về: \"impossible\"",
   "constraintsMd": "",
@@ -17,5 +17,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-08-31T02:56:24.573Z",
-  "updatedAt": "2026-08-31T02:58:22.846Z"
+  "updatedAt": "2026-08-31T08:32:05.504Z"
 }
