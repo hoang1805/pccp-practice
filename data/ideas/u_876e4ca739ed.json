@@ -5,14 +5,19 @@
     {
       "id": "ID-0001",
       "problemId": "P-0010",
-      "status": "PENDING",
+      "status": "APPROVED",
       "version": 1,
       "contentMd": "## Hướng tiếp cận\nTham lam, thử giảm giá từ 10 => 40% cho tất cả các emoticons. Với mỗi tổ hợp giảm giá của emoticons, tính số lượng người mua dịch vụ Emoticons Plus và doanh thừ từ việc bán lẻ emoticons. Chọn trường hợp có số lượng người đăng ký dịch vụ nhiều nhất,  trường hợp bằng nhau thì lấy cái có doanh thu bán lẻ cao hơn.\n\n## Độ phức tạp\n- Thời gian: 4 mũ m * n * m; \n- Bộ nhớ: O(N + M)\n\n## Trường hợp biên\n- ",
       "submittedAt": "2026-08-31T08:10:11.928Z",
-      "review": null,
+      "review": {
+        "reviewerId": "u_876e4ca739ed",
+        "decision": "APPROVED",
+        "commentMd": "10đ đấy a",
+        "reviewedAt": "2026-08-31T08:11:40.442Z"
+      },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-08-31T08:10:11.928Z"
+      "updatedAt": "2026-08-31T08:11:40.442Z"
     }
   ]
 }
