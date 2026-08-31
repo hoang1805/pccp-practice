@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0010",
+  "title": "이모티콘 할인행사",
+  "level": 2,
+  "tags": [],
+  "statementMd": "Kakao tổ chức một chương trình giảm giá cho các emoticon nhằm đạt được hai mục tiêu:\n\n1. Tối đa hóa số người đăng ký dịch vụ **Emoticon Plus**.\n2. Nếu số người đăng ký bằng nhau, tối đa hóa tổng doanh thu bán emoticon.\n\nMục tiêu thứ nhất có độ ưu tiên cao hơn mục tiêu thứ hai.\n\nMỗi emoticon phải được áp dụng một trong bốn mức giảm giá: 10%, 20%, 30%, 40%\n\nNhiệm vụ là tìm cách gán mức giảm giá cho từng emoticon sao cho đạt được kết quả tốt nhất.\n\n## Quy tắc mua hàng của người dùng\n\nMỗi người dùng được mô tả bằng:\n\n```text\n[discountLimit, priceLimit]\n```\n\nTrong đó:\n\n- `discountLimit` là mức giảm giá tối thiểu mà người dùng quan tâm.\n- `priceLimit` là giới hạn chi tiêu để người dùng chuyển sang đăng ký Emoticon Plus.\n\nNgười dùng xử lý chương trình giảm giá theo hai bước:\n\n### Bước 1: Chọn emoticon để mua\n\nNgười dùng mua tất cả emoticon có mức giảm giá:\n\n```text\ndiscount >= discountLimit\n```\n\nVí dụ, nếu `discountLimit = 30`, người dùng chỉ mua những emoticon được giảm:\n\n```text\n30% hoặc 40%\n```\n\n### Bước 2: Kiểm tra tổng tiền\n\nSau khi tính tổng số tiền cần trả:\n\n- Nếu tổng tiền nhỏ hơn `priceLimit`, người dùng mua các emoticon đó.\n- Nếu tổng tiền lớn hơn hoặc bằng `priceLimit`, người dùng hủy toàn bộ việc mua emoticon và đăng ký dịch vụ Emoticon Plus.\n\n## Giá emoticon sau khi giảm\n\nNếu emoticon có giá gốc là `price` và mức giảm giá là `discount`, giá sau khi giảm được tính bằng:\n\n```text\ndiscountedPrice = price × (100 - discount) / 100\n```\n\nVí dụ:\n\n```text\nGiá gốc: 7,000\nGiảm giá: 30%\n\nGiá sau giảm = 7,000 × 70 / 100\n             = 4,900\n```\n\n## Giá trị cần trả về\n\nTrả về một mảng gồm hai phần tử:\n\n```text\n[numberOfSubscribers, totalRevenue]\n```\n\nTrong đó:\n\n- `numberOfSubscribers` là số người đăng ký Emoticon Plus.\n- `totalRevenue` là tổng tiền bán emoticon từ những người không đăng ký Plus.",
+  "constraintsMd": "",
+  "samples": [],
+  "sourceUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/150368",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [
+    "JavaScript"
+  ],
+  "estimatedMinutes": null,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-08-31T03:36:09.355Z",
+  "updatedAt": "2026-08-31T03:36:09.355Z"
+}
