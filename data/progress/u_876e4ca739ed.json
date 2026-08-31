@@ -35,6 +35,23 @@
       "solutionViewedAt": "2026-08-31T08:16:50.794Z",
       "statusHistory": [],
       "updatedAt": "2026-08-31T08:16:50.794Z"
+    },
+    {
+      "problemId": "P-0008",
+      "status": "NOT_STARTED",
+      "stuckReason": "",
+      "stuckSince": null,
+      "startedAt": null,
+      "completedAt": null,
+      "timeSpentMinutes": 0,
+      "selfScore": null,
+      "language": null,
+      "codeUrl": "",
+      "perceivedDifficulty": null,
+      "hintsRevealed": [],
+      "solutionViewedAt": "2026-08-31T08:32:37.095Z",
+      "statusHistory": [],
+      "updatedAt": "2026-08-31T08:32:37.095Z"
     }
   ]
 }
