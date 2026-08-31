@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T17:31:26.507Z",
+  "generatedAt": "2026-08-31T02:56:24.573Z",
   "problems": [
     {
       "id": "P-0001",
@@ -91,6 +91,15 @@
       "estimatedMinutes": 40,
       "archived": false,
       "updatedAt": "2026-08-30T17:31:26.507Z"
+    },
+    {
+      "id": "P-0008",
+      "title": "미로 탈출 명령어",
+      "level": 1,
+      "tags": [],
+      "estimatedMinutes": null,
+      "archived": false,
+      "updatedAt": "2026-08-31T02:56:24.573Z"
     }
   ]
 }
