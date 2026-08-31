@@ -23,3 +23,4 @@
 {"at":"2026-08-31T08:40:25.708Z","actor":"u_876e4ca739ed","action":"IDEA_SUBMIT","target":"P-0008","result":"OK"}
 {"at":"2026-08-31T08:55:04.145Z","actor":"u_876e4ca739ed","action":"SOLUTION_VIEW","target":"P-0008","result":"OK"}
 {"at":"2026-08-31T09:00:33.642Z","actor":"u_876e4ca739ed","action":"SOLUTION_VIEW","target":"P-0008","result":"OK"}
+{"at":"2026-08-31T09:59:59.924Z","actor":"u_876e4ca739ed","action":"IDEA_REVIEW","target":"ID-0002","to":"NEEDS_REVISION","result":"OK"}
