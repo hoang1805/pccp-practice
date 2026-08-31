@@ -18,6 +18,23 @@
       "solutionViewedAt": "2026-08-31T02:44:26.904Z",
       "statusHistory": [],
       "updatedAt": "2026-08-31T02:44:26.905Z"
+    },
+    {
+      "problemId": "P-0010",
+      "status": "NOT_STARTED",
+      "stuckReason": "",
+      "stuckSince": null,
+      "startedAt": null,
+      "completedAt": null,
+      "timeSpentMinutes": 0,
+      "selfScore": null,
+      "language": null,
+      "codeUrl": "",
+      "perceivedDifficulty": null,
+      "hintsRevealed": [],
+      "solutionViewedAt": "2026-08-31T06:15:30.790Z",
+      "statusHistory": [],
+      "updatedAt": "2026-08-31T06:15:30.790Z"
     }
   ]
 }
