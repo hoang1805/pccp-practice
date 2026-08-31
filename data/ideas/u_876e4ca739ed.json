@@ -18,6 +18,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-08-31T08:11:40.442Z"
+    },
+    {
+      "id": "ID-0002",
+      "problemId": "P-0008",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nTìm đường đi ngắn nhất, luôn ưu tiên đi xuống và sang trái, sau đó lặp lại nước đi\n\n## Độ phức tạp\n- Thời gian: O(k)\n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-08-31T08:40:25.707Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-08-31T08:40:25.707Z"
     }
   ]
 }
