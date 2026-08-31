@@ -10,10 +10,12 @@
   "sourceUrl": "https://school.programmers.co.kr/learn/courses/30/lessons/150365",
   "sourceNote": "",
   "difficultyNote": "",
-  "recommendedLanguages": [],
-  "estimatedMinutes": null,
+  "recommendedLanguages": [
+    "JavaScript"
+  ],
+  "estimatedMinutes": 20,
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-08-31T02:56:24.573Z",
-  "updatedAt": "2026-08-31T02:56:24.573Z"
+  "updatedAt": "2026-08-31T02:58:22.846Z"
 }
