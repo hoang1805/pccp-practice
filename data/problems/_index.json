@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T03:27:14.189Z",
+  "generatedAt": "2026-08-31T03:36:09.355Z",
   "problems": [
     {
       "id": "P-0001",
@@ -109,6 +109,15 @@
       "estimatedMinutes": 8,
       "archived": false,
       "updatedAt": "2026-08-31T03:27:14.189Z"
+    },
+    {
+      "id": "P-0010",
+      "title": "이모티콘 할인행사",
+      "level": 2,
+      "tags": [],
+      "estimatedMinutes": null,
+      "archived": false,
+      "updatedAt": "2026-08-31T03:36:09.355Z"
     }
   ]
 }
