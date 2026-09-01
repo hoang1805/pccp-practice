@@ -5,7 +5,7 @@
   "level": 3,
   "tags": [],
   "statementMd": "Bạn có $N$ khóa học trực tuyến. Khóa học thứ $i$ được mô tả bằng mảng `courses[i] = [duration, lastDay]`, nghĩa là khóa học này mất `duration` ngày liên tục để học, và phải được hoàn thành vào hoặc trước ngày `lastDay`. Bạn bắt đầu học vào ngày 1.\nChỉ được học 1 khóa tại 1 thời điểm. Hãy tìm số lượng khóa học tối đa bạn có thể hoàn thành.",
-  "constraintsMd": "",
+  "constraintsMd": "* $1 \\le \\text{courses.length} \\le 10^4$\n* $1 \\le \\text{duration}_i, \\text{lastDay}_i \\le 10^4$",
   "samples": [],
   "sourceUrl": "https://leetcode.com/problems/course-schedule-iii/",
   "sourceNote": "",
@@ -15,5 +15,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-01T07:37:18.927Z",
-  "updatedAt": "2026-09-01T07:37:18.927Z"
+  "updatedAt": "2026-09-01T07:46:12.874Z"
 }
