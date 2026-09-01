@@ -39,14 +39,14 @@
     {
       "id": "ID-0003",
       "problemId": "P-0009",
-      "status": "DRAFT",
+      "status": "PENDING",
       "version": 1,
-      "contentMd": "## Hướng tiếp cận\nn <= 20 => Sinh nhị phân các trạng thái +, - cho từng số.\n\n## Độ phức tạp\n- Thời gian: \n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
-      "submittedAt": null,
+      "contentMd": "## Hướng tiếp cận\nn <= 20 => Sinh nhị phân các trạng thái +, - cho từng số. Mỗi lần đệ quy check target. Dừng khi index là phần tử cuối\n\n## Độ phức tạp\n- Thời gian: O(2^n)\n- Bộ nhớ: 0(1)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-01T02:33:59.715Z",
       "review": null,
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-01T02:32:58.673Z"
+      "updatedAt": "2026-09-01T02:33:59.715Z"
     }
   ]
 }
