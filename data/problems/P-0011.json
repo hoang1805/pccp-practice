@@ -6,7 +6,23 @@
   "tags": [],
   "statementMd": "Bạn là một tên trộm đang lên kế hoạch trộm tiền tại một khu phố. Mỗi ngôi nhà có một lượng tiền nhất định giấu bên trong. Tuy nhiên, các ngôi nhà này được xếp thành một **vòng tròn** (nhà đầu tiên nối liền với nhà cuối cùng). Hệ thống an ninh sẽ tự động báo cảnh sát nếu **2 ngôi nhà kề nhau** bị trộm trong cùng một đêm. \nHãy tính số tiền lớn nhất bạn có thể trộm được mà không đánh động cảnh sát.",
   "constraintsMd": "* $1 \\le \\text{nums.length} \\le 100$\n* $0 \\le \\text{nums}[i] \\le 1000$",
-  "samples": [],
+  "samples": [
+    {
+      "input": "nums = [2, 3, 2]",
+      "output": "3",
+      "explanation": "Bạn không thể cướp ngôi nhà số 1 (tiền = 2) và ngôi nhà số 3 (tiền = 2) vì chúng được nối vòng tròn với nhau (liền kề). Do đó, cách tối ưu duy nhất là cướp ngôi nhà số 2. Tổng tiền = 3."
+    },
+    {
+      "input": "nums = [1, 2, 3, 1]",
+      "output": "4",
+      "explanation": "- Kịch bản 1 (Cướp từ nhà 1 đến nhà 3 - bỏ nhà cuối): Cướp nhà 1 (tiền 1) và nhà 3 (tiền 3) -> Tổng = 4.   - Kịch bản 2 (Cướp từ nhà 2 đến nhà 4 - bỏ nhà đầu): Cướp nhà 2 (tiền 2) và nhà 4 (tiền 1) -> Tổng = 3.   - Max giữa 2 kịch bản là 4."
+    },
+    {
+      "input": "nums = [1, 2, 3]",
+      "output": "3",
+      "explanation": "Mảng 3 phần tử tạo thành tam giác vòng tròn, chỉ cướp được đúng 1 nhà. Chắc chắn chọn nhà có số tiền lớn nhất là 3."
+    }
+  ],
   "sourceUrl": "https://leetcode.com/problems/house-robber-ii/",
   "sourceNote": "",
   "difficultyNote": "",
@@ -15,5 +31,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-01T07:31:52.476Z",
-  "updatedAt": "2026-09-01T07:45:50.590Z"
+  "updatedAt": "2026-09-01T07:50:03.714Z"
 }
