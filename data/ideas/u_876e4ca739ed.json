@@ -71,6 +71,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-01T03:39:12.019Z"
+    },
+    {
+      "id": "ID-0006",
+      "problemId": "P-0001",
+      "status": "DRAFT",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nDuyệt các \n\n## Độ phức tạp\n- Thời gian: \n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
+      "submittedAt": null,
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-01T04:11:15.112Z"
     }
   ]
 }
