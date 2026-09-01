@@ -59,6 +59,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-01T03:06:49.151Z"
+    },
+    {
+      "id": "ID-0005",
+      "problemId": "P-0003",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\n- Sort các meetings theo thời điểm bắt đầu. Với mỗi meetings, đẩy vào min-heap theo thời điểm kết thúc sớm nhất + đối chiếu nếu start của meeting hiện tại lớn hơn đỉnh heap thì + phòng lên.\n\n## Độ phức tạp\n- Thời gian: n.log(n) (n là số meeting).\n- Bộ nhớ: Bộ nhớ phụ heap\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-01T03:39:12.019Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-01T03:39:12.019Z"
     }
   ]
 }
