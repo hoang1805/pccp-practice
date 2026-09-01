@@ -4,10 +4,10 @@
   "items": [
     {
       "problemId": "P-0001",
-      "status": "NOT_STARTED",
+      "status": "IN_PROGRESS",
       "stuckReason": "",
       "stuckSince": null,
-      "startedAt": null,
+      "startedAt": "2026-09-01T04:15:44.394Z",
       "completedAt": null,
       "timeSpentMinutes": 0,
       "selfScore": null,
@@ -16,8 +16,15 @@
       "perceivedDifficulty": null,
       "hintsRevealed": [],
       "solutionViewedAt": "2026-09-01T04:13:35.640Z",
-      "statusHistory": [],
-      "updatedAt": "2026-09-01T04:13:35.640Z"
+      "statusHistory": [
+        {
+          "from": "NOT_STARTED",
+          "to": "IN_PROGRESS",
+          "at": "2026-09-01T04:15:44.394Z"
+        }
+      ],
+      "updatedAt": "2026-09-01T04:15:44.394Z",
+      "lastResumedAt": "2026-09-01T04:15:44.394Z"
     },
     {
       "problemId": "P-0010",
