@@ -6,3 +6,4 @@
 {"at":"2026-09-01T03:39:12.020Z","actor":"u_876e4ca739ed","action":"IDEA_SUBMIT","target":"P-0003","result":"OK"}
 {"at":"2026-09-01T04:00:51.958Z","actor":"u_876e4ca739ed","action":"SOLUTION_SAVE","target":"P-0003","result":"OK"}
 {"at":"2026-09-01T04:13:35.641Z","actor":"u_876e4ca739ed","action":"SOLUTION_VIEW","target":"P-0001","result":"OK"}
+{"at":"2026-09-01T04:15:44.395Z","actor":"u_876e4ca739ed","action":"PROGRESS_STATUS_CHANGE","target":"P-0001","from":"NOT_STARTED","to":"IN_PROGRESS","result":"OK"}
