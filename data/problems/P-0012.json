@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0012",
+  "title": "Subarrays with K Different Integers",
+  "level": 3,
+  "tags": [],
+  "statementMd": "Cho một mảng số nguyên `nums` và một số nguyên `k`. Một mảng con (subarray - các phần tử liên tiếp) được gọi là \"Tốt\" (Good) nếu số lượng các số nguyên khác biệt (distinct integers) trong mảng con đó **bằng chính xác `k`**.\nHãy trả về tổng số lượng các mảng con \"Tốt\".",
+  "constraintsMd": "",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": 40,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-01T07:34:11.180Z",
+  "updatedAt": "2026-09-01T07:34:11.180Z"
+}
