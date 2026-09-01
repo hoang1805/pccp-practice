@@ -6,7 +6,23 @@
   "tags": [],
   "statementMd": "Bạn đứng trong một mê cung 2D. Mê cung bao gồm ô trống (`.`), tường (`#`), điểm xuất phát (`@`), các chìa khóa (chữ cái in thường `a-f`) và các ổ khóa (chữ cái in hoa `A-F`). Bạn có thể di chuyển 4 hướng. Bạn không thể đi qua ổ khóa nếu chưa nhặt được chìa khóa tương ứng. \nHãy tìm số bước ít nhất để nhặt được **tất cả** các chìa khóa có trong mê cung. Trả về `-1` nếu không thể.",
   "constraintsMd": "* $m == \\text{grid.length}$\n* $n == \\text{grid}[i].\\text{length}$\n* $1 \\le m, n \\le 30$\n* Bảng lưới chỉ chứa các ký tự: `'.'`, `'#'`, `'@'`, `'a'-'f'`, và `'A'-'F'`.\n* Có đúng $1$ điểm xuất phát `'@'`.\n* **Số lượng chìa khóa nằm trong khoảng $[1, 6]$.**",
-  "samples": [],
+  "samples": [
+    {
+      "input": "grid = [\"@.a.#\", \"###.#\", \"b.A.B\"]",
+      "output": "8",
+      "explanation": "- Tọa độ: `@` là (0,0), `a` là (0,2), `b` là (2,0), ổ khóa `A` là (2,2), ổ khóa `B` là (2,4). Tường `#` chắn ngang.   - Bạn phải đi: Phải -> Phải (lấy chìa `a`, mất 2 bước).   - Đã có chìa `a`, bạn quay ngược lại Trái -> Trái (về lại `@`, mất 4 bước).   - Đi Xuống -> Xuống (lấy chìa `b`, mất 6 bước).   - Đi Phải -> Phải -> Phải -> Phải (mở khóa `A`, tới được `B`).   - Lộ trình ngắn nhất là 8 bước. Trạng thái bitmask chuyển từ `000000` -> `000001` -> `000011`."
+    },
+    {
+      "input": "grid = [\"@..aA\", \"..B#.\", \"....b\"]",
+      "output": "6",
+      "explanation": "- Đi thẳng sang phải nhặt chìa `a`. Đã có chìa `a`, bạn mở được ổ khóa `A` ngay bên cạnh nhưng ổ khóa `A` nằm ở góc cụt.   - Bạn phải đi vòng xuống dưới nhặt chìa `b`. Tổng hành trình ngắn nhất là 6 bước."
+    },
+    {
+      "input": "grid = [\"@Aa\"]",
+      "output": "-1",
+      "explanation": "Chìa khóa `a` nằm sau ổ khóa `A`. Bạn không thể lấy được chìa `a` vì bị kẹt ổ khóa `A` (và bạn cũng không có chìa `a` để mở nó). Vòng lặp bế tắc, trả về `-1`."
+    }
+  ],
   "sourceUrl": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
   "sourceNote": "",
   "difficultyNote": "",
@@ -15,5 +31,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-01T07:40:30.188Z",
-  "updatedAt": "2026-09-01T07:46:36.493Z"
+  "updatedAt": "2026-09-01T07:55:46.846Z"
 }
