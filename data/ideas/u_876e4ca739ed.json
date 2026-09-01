@@ -47,6 +47,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-01T02:46:04.398Z"
+    },
+    {
+      "id": "ID-0004",
+      "problemId": "P-0004",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nNhị phân tham lam\nHàm check số kẹo lớn nhất truyền vào 1 biến c (với mỗi candies[i] lấy candies[i] chia c lấy phần nguyên làm tròn xuống để cộng vào 1 biến count. nếu count >= k =>  hợp lệ. \nCận trái là 1;\nCận phải là Max(...candies[i]) \n\n## Độ phức tạp\n- Thời gian: O(candies.length * log(k));\n- Bộ nhớ: O(1)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-01T03:06:49.151Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-01T03:06:49.151Z"
     }
   ]
 }
