@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0014",
+  "title": "Shortest Path to Get All Keys",
+  "level": 3,
+  "tags": [],
+  "statementMd": "Bạn đứng trong một mê cung 2D. Mê cung bao gồm ô trống (`.`), tường (`#`), điểm xuất phát (`@`), các chìa khóa (chữ cái in thường `a-f`) và các ổ khóa (chữ cái in hoa `A-F`). Bạn có thể di chuyển 4 hướng. Bạn không thể đi qua ổ khóa nếu chưa nhặt được chìa khóa tương ứng. \nHãy tìm số bước ít nhất để nhặt được **tất cả** các chìa khóa có trong mê cung. Trả về `-1` nếu không thể.",
+  "constraintsMd": "",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": 60,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-01T07:40:30.188Z",
+  "updatedAt": "2026-09-01T07:40:30.188Z"
+}
