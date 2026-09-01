@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T07:34:11.180Z",
+  "generatedAt": "2026-09-01T07:37:18.927Z",
   "problems": [
     {
       "id": "P-0001",
@@ -136,6 +136,15 @@
       "estimatedMinutes": 40,
       "archived": false,
       "updatedAt": "2026-09-01T07:34:11.180Z"
+    },
+    {
+      "id": "P-0013",
+      "title": "Course Schedule III",
+      "level": 3,
+      "tags": [],
+      "estimatedMinutes": 30,
+      "archived": false,
+      "updatedAt": "2026-09-01T07:37:18.927Z"
     }
   ]
 }
