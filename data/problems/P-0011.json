@@ -5,7 +5,7 @@
   "level": 2,
   "tags": [],
   "statementMd": "Bạn là một tên trộm đang lên kế hoạch trộm tiền tại một khu phố. Mỗi ngôi nhà có một lượng tiền nhất định giấu bên trong. Tuy nhiên, các ngôi nhà này được xếp thành một **vòng tròn** (nhà đầu tiên nối liền với nhà cuối cùng). Hệ thống an ninh sẽ tự động báo cảnh sát nếu **2 ngôi nhà kề nhau** bị trộm trong cùng một đêm. \nHãy tính số tiền lớn nhất bạn có thể trộm được mà không đánh động cảnh sát.",
-  "constraintsMd": "",
+  "constraintsMd": "* $1 \\le \\text{nums.length} \\le 100$\n* $0 \\le \\text{nums}[i] \\le 1000$",
   "samples": [],
   "sourceUrl": "https://leetcode.com/problems/house-robber-ii/",
   "sourceNote": "",
@@ -15,5 +15,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-01T07:31:52.476Z",
-  "updatedAt": "2026-09-01T07:31:52.476Z"
+  "updatedAt": "2026-09-01T07:45:50.590Z"
 }
