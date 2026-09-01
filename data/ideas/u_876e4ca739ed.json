@@ -87,14 +87,19 @@
     {
       "id": "ID-0007",
       "problemId": "P-0002",
-      "status": "PENDING",
+      "status": "APPROVED",
       "version": 1,
       "contentMd": "## Hướng tiếp cận\ndùng string rỗng lưu kí tự nén. Duyệt qua mỗi phần tử trong string gốc. Nếu phần tử của string gốc giống ptu trong string nén thì đẩy vào, nếu khác thì += string res kí tự đầu của string nén += res string; hết vòng lặp cần check xem string nén có rỗng không, nếu không cộng nốt vào string kết quả.\nModify phần tử của mảng gốc theo thứ tự các kí tự string kết quả, xóa phần thừa.\n\n## Độ phức tạp\n- Thời gian: O(s.length);\n- Bộ nhớ: 0(s.length);\n\n## Trường hợp biên\n- ",
       "submittedAt": "2026-09-01T04:53:00.094Z",
-      "review": null,
+      "review": {
+        "reviewerId": "u_876e4ca739ed",
+        "decision": "APPROVED",
+        "commentMd": "",
+        "reviewedAt": "2026-09-01T07:13:38.250Z"
+      },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-01T04:53:00.094Z"
+      "updatedAt": "2026-09-01T07:13:38.250Z"
     }
   ]
 }
