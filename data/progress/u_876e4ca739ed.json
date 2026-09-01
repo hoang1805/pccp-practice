@@ -98,6 +98,29 @@
         }
       ],
       "updatedAt": "2026-09-01T03:24:36.776Z"
+    },
+    {
+      "problemId": "P-0003",
+      "status": "COMPLETED",
+      "stuckReason": "",
+      "stuckSince": null,
+      "startedAt": null,
+      "completedAt": "2026-09-01T04:01:05.802Z",
+      "timeSpentMinutes": 30,
+      "selfScore": 200,
+      "language": "JavaScript",
+      "codeUrl": "",
+      "perceivedDifficulty": 3,
+      "hintsRevealed": [],
+      "solutionViewedAt": null,
+      "statusHistory": [
+        {
+          "from": "NOT_STARTED",
+          "to": "COMPLETED",
+          "at": "2026-09-01T04:01:05.802Z"
+        }
+      ],
+      "updatedAt": "2026-09-01T04:01:05.802Z"
     }
   ]
 }
