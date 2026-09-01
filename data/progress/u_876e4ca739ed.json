@@ -119,7 +119,7 @@
       "codeUrl": "",
       "perceivedDifficulty": 3,
       "hintsRevealed": [],
-      "solutionViewedAt": null,
+      "solutionViewedAt": "2026-09-01T07:14:24.036Z",
       "statusHistory": [
         {
           "from": "NOT_STARTED",
@@ -127,7 +127,7 @@
           "at": "2026-09-01T04:01:05.802Z"
         }
       ],
-      "updatedAt": "2026-09-01T04:01:05.802Z"
+      "updatedAt": "2026-09-01T07:14:24.036Z"
     }
   ]
 }
