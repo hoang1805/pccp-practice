@@ -5,7 +5,7 @@
   "level": 3,
   "tags": [],
   "statementMd": "Cho một mảng số nguyên `nums` và một số nguyên `k`. Một mảng con (subarray - các phần tử liên tiếp) được gọi là \"Tốt\" (Good) nếu số lượng các số nguyên khác biệt (distinct integers) trong mảng con đó **bằng chính xác `k`**.\nHãy trả về tổng số lượng các mảng con \"Tốt\".",
-  "constraintsMd": "* $1 \\le \\text{nums.length} \\le 100$\n* $0 \\le \\text{nums}[i] \\le 1000$",
+  "constraintsMd": "* $1 \\le \\text{nums.length} \\le 2 \\times 10^4$\n* $1 \\le \\text{nums}[i], k \\le \\text{nums.length}$",
   "samples": [
     {
       "input": "nums = [1,2,1,2,3], k = 2",
@@ -26,5 +26,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-01T07:34:11.180Z",
-  "updatedAt": "2026-09-01T07:44:50.727Z"
+  "updatedAt": "2026-09-01T07:46:30.560Z"
 }
