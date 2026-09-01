@@ -13,3 +13,4 @@
 {"at":"2026-09-01T07:23:50.324Z","actor":"u_876e4ca739ed","action":"IDEA_REVIEW","target":"ID-0005","to":"APPROVED","result":"OK"}
 {"at":"2026-09-01T07:24:22.546Z","actor":"u_876e4ca739ed","action":"IDEA_REVIEW","target":"ID-0005","to":"APPROVED","result":"OK"}
 {"at":"2026-09-01T07:26:07.953Z","actor":"u_876e4ca739ed","action":"IDEA_REVIEW","target":"ID-0003","to":"APPROVED","result":"OK"}
+{"at":"2026-09-01T07:31:52.479Z","actor":"u_876e4ca739ed","action":"PROBLEM_CREATE","target":"P-0011","result":"OK"}
