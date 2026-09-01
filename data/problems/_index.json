@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T07:37:18.927Z",
+  "generatedAt": "2026-09-01T07:40:30.188Z",
   "problems": [
     {
       "id": "P-0001",
@@ -145,6 +145,15 @@
       "estimatedMinutes": 30,
       "archived": false,
       "updatedAt": "2026-09-01T07:37:18.927Z"
+    },
+    {
+      "id": "P-0014",
+      "title": "Shortest Path to Get All Keys",
+      "level": 3,
+      "tags": [],
+      "estimatedMinutes": 60,
+      "archived": false,
+      "updatedAt": "2026-09-01T07:40:30.188Z"
     }
   ]
 }
