@@ -35,6 +35,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-08-31T09:59:59.923Z"
+    },
+    {
+      "id": "ID-0003",
+      "problemId": "P-0009",
+      "status": "DRAFT",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nn <= 20 => Sinh nhị phân các trạng thái +, - cho từng số.\n\n## Độ phức tạp\n- Thời gian: \n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
+      "submittedAt": null,
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-01T02:32:58.673Z"
     }
   ]
 }
