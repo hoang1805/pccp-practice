@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T08:32:05.504Z",
+  "generatedAt": "2026-09-01T07:31:52.476Z",
   "problems": [
     {
       "id": "P-0001",
@@ -118,6 +118,15 @@
       "estimatedMinutes": null,
       "archived": false,
       "updatedAt": "2026-08-31T03:36:09.355Z"
+    },
+    {
+      "id": "P-0011",
+      "title": "House Robber II",
+      "level": 2,
+      "tags": [],
+      "estimatedMinutes": 15,
+      "archived": false,
+      "updatedAt": "2026-09-01T07:31:52.476Z"
     }
   ]
 }
