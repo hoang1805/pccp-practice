@@ -5,7 +5,7 @@
   "level": 3,
   "tags": [],
   "statementMd": "Bạn đứng trong một mê cung 2D. Mê cung bao gồm ô trống (`.`), tường (`#`), điểm xuất phát (`@`), các chìa khóa (chữ cái in thường `a-f`) và các ổ khóa (chữ cái in hoa `A-F`). Bạn có thể di chuyển 4 hướng. Bạn không thể đi qua ổ khóa nếu chưa nhặt được chìa khóa tương ứng. \nHãy tìm số bước ít nhất để nhặt được **tất cả** các chìa khóa có trong mê cung. Trả về `-1` nếu không thể.",
-  "constraintsMd": "",
+  "constraintsMd": "* $m == \\text{grid.length}$\n* $n == \\text{grid}[i].\\text{length}$\n* $1 \\le m, n \\le 30$\n* Bảng lưới chỉ chứa các ký tự: `'.'`, `'#'`, `'@'`, `'a'-'f'`, và `'A'-'F'`.\n* Có đúng $1$ điểm xuất phát `'@'`.\n* **Số lượng chìa khóa nằm trong khoảng $[1, 6]$.**",
   "samples": [],
   "sourceUrl": "https://leetcode.com/problems/shortest-path-to-get-all-keys/",
   "sourceNote": "",
@@ -15,5 +15,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-01T07:40:30.188Z",
-  "updatedAt": "2026-09-01T07:40:30.188Z"
+  "updatedAt": "2026-09-01T07:46:36.493Z"
 }
