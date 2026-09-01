@@ -6,7 +6,23 @@
   "tags": [],
   "statementMd": "Bạn có $N$ khóa học trực tuyến. Khóa học thứ $i$ được mô tả bằng mảng `courses[i] = [duration, lastDay]`, nghĩa là khóa học này mất `duration` ngày liên tục để học, và phải được hoàn thành vào hoặc trước ngày `lastDay`. Bạn bắt đầu học vào ngày 1.\nChỉ được học 1 khóa tại 1 thời điểm. Hãy tìm số lượng khóa học tối đa bạn có thể hoàn thành.",
   "constraintsMd": "* $1 \\le \\text{courses.length} \\le 10^4$\n* $1 \\le \\text{duration}_i, \\text{lastDay}_i \\le 10^4$",
-  "samples": [],
+  "samples": [
+    {
+      "input": "courses = [[100, 200], [200, 1300], [1000, 1250], [2000, 3200]]",
+      "output": "3",
+      "explanation": "- Lấy khóa `[100, 200]`: Tốn 100 ngày. Hoàn thành ngày 100 (<= 200). Hợp lệ.   - Lấy khóa `[200, 1300]`: Tốn 200 ngày. Hoàn thành ngày 300 (<= 1300). Hợp lệ.   - Lấy khóa `[1000, 1250]`: Tốn 1000 ngày. Hoàn thành ngày 1300 (Nhưng trễ hạn vì 1300 > 1250). Ta nhét nó vào Heap nhưng rồi dùng \"Tham lam hối hận\", rút cái nặng nhất (chính là khóa 1000 ngày này) ra ném đi. Giữ lại 2 khóa đầu.   - Lấy khóa `[2000, 3200]`: Tốn 2000 ngày. Hoàn thành ngày 2300 (300 + 2000). Hợp lệ (2300 <= 3200).   - Bạn học tối đa được 3 khóa học (khóa 1, khóa 2 và khóa 4)."
+    },
+    {
+      "input": "courses = [[1, 2]]",
+      "output": "1",
+      "explanation": "Chỉ có 1 khóa, học ngày thứ 1, xong luôn trong ngày thứ 1. Thỏa mãn hạn chót là 2."
+    },
+    {
+      "input": "courses = [[3, 2], [4, 3]]",
+      "output": "0",
+      "explanation": "Khóa đầu tốn 3 ngày nhưng hạn chót là 2 (Không thể làm được dù là khóa duy nhất). Khóa thứ hai tốn 4 ngày nhưng hạn chót là 3 (Cũng không thể). Vậy chả học được khóa nào."
+    }
+  ],
   "sourceUrl": "https://leetcode.com/problems/course-schedule-iii/",
   "sourceNote": "",
   "difficultyNote": "",
@@ -15,5 +31,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-01T07:37:18.927Z",
-  "updatedAt": "2026-09-01T07:46:12.874Z"
+  "updatedAt": "2026-09-01T07:53:44.041Z"
 }
