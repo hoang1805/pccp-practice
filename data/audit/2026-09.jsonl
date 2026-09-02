@@ -30,3 +30,4 @@
 {"at":"2026-09-02T14:30:32.272Z","actor":"u_876e4ca739ed","action":"IDEA_SUBMIT","target":"P-0011","result":"OK"}
 {"at":"2026-09-02T15:02:22.865Z","actor":"u_876e4ca739ed","action":"SOLUTION_SAVE","target":"P-0011","result":"OK"}
 {"at":"2026-09-02T15:17:57.085Z","actor":"u_876e4ca739ed","action":"IDEA_REVIEW","target":"ID-0008","to":"REJECTED","result":"OK"}
+{"at":"2026-09-02T15:20:11.518Z","actor":"u_876e4ca739ed","action":"PROBLEM_CREATE","target":"P-0015","result":"OK"}
