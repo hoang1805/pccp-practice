@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T15:24:56.747Z",
+  "generatedAt": "2026-09-02T15:30:13.559Z",
   "problems": [
     {
       "id": "P-0001",
@@ -181,6 +181,15 @@
       "estimatedMinutes": 15,
       "archived": false,
       "updatedAt": "2026-09-02T15:24:56.747Z"
+    },
+    {
+      "id": "P-0018",
+      "title": "Largest Rectangle in Histogram",
+      "level": 3,
+      "tags": [],
+      "estimatedMinutes": 30,
+      "archived": false,
+      "updatedAt": "2026-09-02T15:30:13.559Z"
     }
   ]
 }
