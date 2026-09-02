@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0017",
+  "title": "Path With Minimum Effort",
+  "level": 2,
+  "tags": [],
+  "statementMd": "Bạn là một người leo núi chuẩn bị đi qua một khu vực được mô tả bằng một ma trận 2D `heights`, trong đó `heights[row][col]` là độ cao của ô đó. Bạn xuất phát từ góc trên cùng bên trái `(0, 0)` và muốn đến góc dưới cùng bên phải `(rows-1, cols-1)`. Bạn có thể di chuyển 4 hướng.\n\n\"Độ tốn sức\" (Effort) của một con đường được định nghĩa là **độ chênh lệch độ cao tuyệt đối lớn nhất** giữa 2 ô liền kề bất kỳ trên con đường đó.\nHãy tìm một con đường từ điểm xuất phát đến đích sao cho \"Độ tốn sức\" là **nhỏ nhất có thể**.",
+  "constraintsMd": "* $1 \\le \\text{rows, cols} \\le 100$\n* $1 \\le \\text{heights}[i][j] \\le 10^6$",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/path-with-minimum-effort/description/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": 15,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-02T15:24:56.747Z",
+  "updatedAt": "2026-09-02T15:24:56.747Z"
+}
