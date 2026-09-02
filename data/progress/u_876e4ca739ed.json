@@ -154,12 +154,12 @@
     },
     {
       "problemId": "P-0012",
-      "status": "IN_PROGRESS",
-      "stuckReason": "",
-      "stuckSince": null,
+      "status": "HARD_STUCK",
+      "stuckReason": "TLE ở k = 1000. Tại sao lại như vậy",
+      "stuckSince": "2026-09-02T16:58:00.325Z",
       "startedAt": "2026-09-02T16:57:30.032Z",
       "completedAt": null,
-      "timeSpentMinutes": 0,
+      "timeSpentMinutes": 1,
       "selfScore": null,
       "language": null,
       "codeUrl": "",
@@ -171,9 +171,14 @@
           "from": "NOT_STARTED",
           "to": "IN_PROGRESS",
           "at": "2026-09-02T16:57:30.032Z"
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "HARD_STUCK",
+          "at": "2026-09-02T16:58:00.325Z"
         }
       ],
-      "updatedAt": "2026-09-02T16:57:30.032Z",
+      "updatedAt": "2026-09-02T16:58:00.325Z",
       "lastResumedAt": "2026-09-02T16:57:30.032Z"
     }
   ]
