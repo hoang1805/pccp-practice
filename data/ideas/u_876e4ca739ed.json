@@ -119,10 +119,10 @@
     {
       "id": "ID-0008",
       "problemId": "P-0011",
-      "status": "REJECTED",
+      "status": "PENDING",
       "version": 1,
-      "contentMd": "## Hướng tiếp cận\nLưu tổng giá trị cướp được tại vị trí i vào 1 mảng DP. \nCông thức chuyển trạng thái: \ndp[i] = Math.max(dp[i-2] + nums[i], dp[i-3] + nums[i])\nGT: dp[i-2] là TH không trộm nhà i-1, dp[i-3] là trường hợp bỏ qua 2 nhà. \n\n \n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(n)\n\n## Trường hợp biên\n- Nếu i = nums.length - 1, cần trừ đi giá trị đầu mảng (nhà đầu và nhà cuối được tính là liền kề)",
-      "submittedAt": "2026-09-02T14:30:32.271Z",
+      "contentMd": "## Hướng tiếp cận\n- 2 mảng dp,\nmảng 1 đại diện cho việc chọn trộm các nhà từ i = 0 đến i = n - 2.\nmảng 2 đại diện cho việc chọn trộm các nhà từ i = 1 đến i = n - 1.\nTại mỗi ngôi nhà, quyết định lựa chọn chọn trộm hoặc không => CT;\ndp[i] = Max< dp[i-2] + nums[i]: chọn trộm nhà i và dp[i-1]: không trộm nhà i>\nTrả về giá trị lớn nhất của 2 mảng dp\n\n \n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(n)\n\n## Trường hợp biên\n- Mảng 1 phần tử, trả về luôn giá trị phần tử",
+      "submittedAt": "2026-09-02T15:42:15.554Z",
       "review": {
         "reviewerId": "u_876e4ca739ed",
         "decision": "REJECTED",
@@ -131,7 +131,7 @@
       },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-02T15:17:57.084Z"
+      "updatedAt": "2026-09-02T15:42:15.554Z"
     }
   ]
 }
