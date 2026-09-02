@@ -115,6 +115,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-01T07:13:38.250Z"
+    },
+    {
+      "id": "ID-0008",
+      "problemId": "P-0011",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nLưu tổng giá trị cướp được tại vị trí i vào 1 mảng DP. \nCông thức chuyển trạng thái: \ndp[i] = Math.max(dp[i-2] + nums[i], dp[i-3] + nums[i])\nGT: dp[i-2] là TH không trộm nhà i-1, dp[i-3] là trường hợp bỏ qua 2 nhà. \n\n \n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(n)\n\n## Trường hợp biên\n- Nếu i = nums.length - 1, cần trừ đi giá trị đầu mảng (nhà đầu và nhà cuối được tính là liền kề)",
+      "submittedAt": "2026-09-02T14:30:32.271Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-02T14:30:32.271Z"
     }
   ]
 }
