@@ -136,14 +136,14 @@
     {
       "id": "ID-0009",
       "problemId": "P-0012",
-      "status": "DRAFT",
+      "status": "PENDING",
       "version": 1,
-      "contentMd": "## Hướng tiếp cận\nDùng 2 con trỏ xuất phát lần lượt từ i;\nLần lượt tăng trỏ phải lên để tạo ra các chuỗi con, \n\n## Độ phức tạp\n- Thời gian: \n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
-      "submittedAt": null,
+      "contentMd": "## Hướng tiếp cận\nDùng 2 con trỏ xuất phát lần lượt từ i; 1 biến đếm số chuỗi hợp lệ\nLần lượt tăng trỏ phải lên để tạo ra các chuỗi con bắt dầu từ i, mỗi chuỗi con xuất phát từ i sẽ tạo ra 1 map lưu trữ, mỗi phần tử duyệt qua sẽ kiểm tra xem đã tồn tại trong map hay chưa, nếu chưa thì + biến đếm ptu độc lập lên. đến khi biến đó chạm k thì + biến đếm chuỗi. Khi biến đó > k thì sẽ phải bắt đầu loại chuỗi mới từ i + 1 và set Map. \n## Độ phức tạp\n- Thời gian: O(N^2)\n- Bộ nhớ: mỗi chuỗi con là 1 Map lưu trữ O(N^2)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-02T16:08:28.947Z",
       "review": null,
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-02T15:54:02.563Z"
+      "updatedAt": "2026-09-02T16:08:28.947Z"
     }
   ]
 }
