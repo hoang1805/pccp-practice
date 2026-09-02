@@ -132,6 +132,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-02T15:42:15.554Z"
+    },
+    {
+      "id": "ID-0009",
+      "problemId": "P-0012",
+      "status": "DRAFT",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nDùng 2 con trỏ xuất phát lần lượt từ i và i + 1;\n\n## Độ phức tạp\n- Thời gian: \n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
+      "submittedAt": null,
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-02T15:53:08.241Z"
     }
   ]
 }
