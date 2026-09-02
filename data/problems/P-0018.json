@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0018",
+  "title": "Largest Rectangle in Histogram",
+  "level": 3,
+  "tags": [],
+  "statementMd": "Bạn được cung cấp một mảng số nguyên `heights` biểu diễn độ cao của các cột liền kề nhau trong một biểu đồ (histogram). Chiều rộng của mỗi cột đều bằng 1.\nHãy tìm **diện tích hình chữ nhật lớn nhất** có thể được tạo ra lọt thỏm bên trong biểu đồ này.",
+  "constraintsMd": "* $1 \\le \\text{heights.length} \\le 10^5$\n* $0 \\le \\text{heights}[i] \\le 10^4$",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": 30,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-02T15:30:13.559Z",
+  "updatedAt": "2026-09-02T15:30:13.559Z"
+}
