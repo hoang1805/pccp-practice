@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T15:20:11.517Z",
+  "generatedAt": "2026-09-02T15:21:56.401Z",
   "problems": [
     {
       "id": "P-0001",
@@ -157,12 +157,21 @@
     },
     {
       "id": "P-0015",
-      "title": "Subarray Sum Equals K (Medium)",
+      "title": "Subarray Sum Equals K",
       "level": 2,
       "tags": [],
       "estimatedMinutes": 10,
       "archived": false,
-      "updatedAt": "2026-09-02T15:20:11.517Z"
+      "updatedAt": "2026-09-02T15:20:20.725Z"
+    },
+    {
+      "id": "P-0016",
+      "title": "Split Array Largest Sum",
+      "level": 2,
+      "tags": [],
+      "estimatedMinutes": 30,
+      "archived": false,
+      "updatedAt": "2026-09-02T15:21:56.401Z"
     }
   ]
 }
