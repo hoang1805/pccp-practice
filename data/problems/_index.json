@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T15:21:56.401Z",
+  "generatedAt": "2026-09-02T15:24:56.747Z",
   "problems": [
     {
       "id": "P-0001",
@@ -172,6 +172,15 @@
       "estimatedMinutes": 30,
       "archived": false,
       "updatedAt": "2026-09-02T15:21:56.401Z"
+    },
+    {
+      "id": "P-0017",
+      "title": "Path With Minimum Effort",
+      "level": 2,
+      "tags": [],
+      "estimatedMinutes": 15,
+      "archived": false,
+      "updatedAt": "2026-09-02T15:24:56.747Z"
     }
   ]
 }
