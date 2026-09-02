@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0016",
+  "title": "Split Array Largest Sum",
+  "level": 2,
+  "tags": [],
+  "statementMd": "Bạn được giao một mảng $A$ gồm $N$ tiến trình, trong đó $A[i]$ là thời gian cần thiết để chạy tiến trình thứ $i$. Các tiến trình này phải được thực thi theo **đúng thứ tự** ban đầu.\n\nBạn có $K$ con Server độc lập. Bạn cần chia mảng $A$ thành đúng $K$ đoạn con liên tiếp, sau đó giao mỗi đoạn cho 1 Server xử lý. Các Server sẽ chạy song song cùng lúc. Thời gian để toàn bộ hệ thống hoàn thành chính là **thời gian của Server chạy lâu nhất** (tổng $A[i]$ lớn nhất trong một đoạn).\n\nHãy tìm cách chia sao cho thời gian hệ thống hoàn thành là **nhỏ nhất có thể**.",
+  "constraintsMd": "",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/split-array-largest-sum",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": 30,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-02T15:21:56.401Z",
+  "updatedAt": "2026-09-02T15:21:56.401Z"
+}
