@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "P-0015",
-  "title": "Subarray Sum Equals K (Medium)",
+  "title": "Subarray Sum Equals K",
   "level": 2,
   "tags": [],
   "statementMd": "Hệ thống ngân hàng lưu trữ lịch sử giao dịch trong ngày dưới dạng một mảng số nguyên $A$ gồm $N$ phần tử. Các số dương biểu thị tiền nạp vào, số âm biểu thị tiền rút ra. \n\nHệ thống cảnh báo cần đếm số lượng \"giai đoạn biến động\" (tức là một mảng con gồm các phần tử liên tiếp) có **tổng giá trị giao dịch bằng chính xác $K$**.",
@@ -31,5 +31,5 @@
   "archived": false,
   "createdBy": "u_876e4ca739ed",
   "createdAt": "2026-09-02T15:20:11.517Z",
-  "updatedAt": "2026-09-02T15:20:11.517Z"
+  "updatedAt": "2026-09-02T15:20:20.725Z"
 }
