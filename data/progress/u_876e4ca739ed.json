@@ -164,7 +164,13 @@
       "language": null,
       "codeUrl": "",
       "perceivedDifficulty": null,
-      "hintsRevealed": [],
+      "hintsRevealed": [
+        {
+          "hintId": "H-0001",
+          "level": 1,
+          "revealedAt": "2026-09-03T01:51:03.299Z"
+        }
+      ],
       "solutionViewedAt": null,
       "statusHistory": [
         {
@@ -178,7 +184,7 @@
           "at": "2026-09-02T16:58:00.325Z"
         }
       ],
-      "updatedAt": "2026-09-02T16:58:00.325Z",
+      "updatedAt": "2026-09-03T01:51:03.299Z",
       "lastResumedAt": "2026-09-02T16:57:30.032Z"
     }
   ]
