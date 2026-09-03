@@ -25,10 +25,10 @@
       "contentMd": "Thay vì đếm các đoạn bằng K, nên đếm đoạn <= K rồi trừ đi đoạn <= K-1",
       "createdBy": "u_876e4ca739ed",
       "createdAt": "2026-09-03T01:21:52.593Z",
-      "updatedAt": "2026-09-03T01:51:28.453Z",
+      "updatedAt": "2026-09-03T01:53:21.195Z",
       "feedback": {
-        "helpful": true,
-        "at": "2026-09-03T01:51:28.453Z",
+        "helpful": false,
+        "at": "2026-09-03T01:53:21.195Z",
         "by": "u_876e4ca739ed"
       }
     }
