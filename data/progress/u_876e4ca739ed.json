@@ -154,21 +154,26 @@
     },
     {
       "problemId": "P-0012",
-      "status": "HARD_STUCK",
-      "stuckReason": "TLE ở k = 1000. Tại sao lại như vậy",
-      "stuckSince": "2026-09-02T16:58:00.325Z",
+      "status": "COMPLETED",
+      "stuckReason": "",
+      "stuckSince": null,
       "startedAt": "2026-09-02T16:57:30.032Z",
-      "completedAt": null,
-      "timeSpentMinutes": 1,
-      "selfScore": null,
-      "language": null,
+      "completedAt": "2026-09-03T03:18:58.065Z",
+      "timeSpentMinutes": 4,
+      "selfScore": 300,
+      "language": "JavaScript",
       "codeUrl": "",
-      "perceivedDifficulty": null,
+      "perceivedDifficulty": 4,
       "hintsRevealed": [
         {
           "hintId": "H-0001",
           "level": 1,
           "revealedAt": "2026-09-03T01:51:03.299Z"
+        },
+        {
+          "hintId": "H-0002",
+          "level": 2,
+          "revealedAt": "2026-09-03T01:51:12.942Z"
         }
       ],
       "solutionViewedAt": null,
@@ -182,9 +187,14 @@
           "from": "IN_PROGRESS",
           "to": "HARD_STUCK",
           "at": "2026-09-02T16:58:00.325Z"
+        },
+        {
+          "from": "HARD_STUCK",
+          "to": "COMPLETED",
+          "at": "2026-09-03T03:18:58.065Z"
         }
       ],
-      "updatedAt": "2026-09-03T01:51:03.299Z",
+      "updatedAt": "2026-09-03T03:18:58.065Z",
       "lastResumedAt": "2026-09-02T16:57:30.032Z"
     }
   ]
