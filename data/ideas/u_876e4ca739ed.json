@@ -119,19 +119,19 @@
     {
       "id": "ID-0008",
       "problemId": "P-0011",
-      "status": "PENDING",
+      "status": "APPROVED",
       "version": 1,
       "contentMd": "## Hướng tiếp cận\n- 2 mảng dp,\nmảng 1 đại diện cho việc chọn trộm các nhà từ i = 0 đến i = n - 2.\nmảng 2 đại diện cho việc chọn trộm các nhà từ i = 1 đến i = n - 1.\nTại mỗi ngôi nhà, quyết định lựa chọn chọn trộm hoặc không => CT;\ndp[i] = Max< dp[i-2] + nums[i]: chọn trộm nhà i và dp[i-1]: không trộm nhà i>\nTrả về giá trị lớn nhất của 2 mảng dp\n\n \n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(n)\n\n## Trường hợp biên\n- Mảng 1 phần tử, trả về luôn giá trị phần tử",
       "submittedAt": "2026-09-02T15:42:15.554Z",
       "review": {
         "reviewerId": "u_876e4ca739ed",
-        "decision": "REJECTED",
-        "commentMd": "sai solution roi anh oi",
-        "reviewedAt": "2026-09-02T15:17:57.084Z"
+        "decision": "APPROVED",
+        "commentMd": "",
+        "reviewedAt": "2026-09-03T01:17:20.817Z"
       },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-02T15:42:15.554Z"
+      "updatedAt": "2026-09-03T01:17:20.817Z"
     },
     {
       "id": "ID-0009",
