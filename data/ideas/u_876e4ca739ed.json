@@ -149,6 +149,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-03T03:18:39.165Z"
+    },
+    {
+      "id": "ID-0010",
+      "problemId": "P-0013",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nTham lam hối hận + MaxHeap. Đầu tiên sort theo lastDay từ bé đến lơn (ưu tiên làm task có deadline sớm nhất). Sau đó với mỗi task được thêm vào, + vào ngày hoàn thành. Check xem nếu ngày hoàn thành vượt quá lastDay thì bỏ task tốn nhiều ngày để hoàn thiện nhất ra và trừ tổng số ngày hoàn thành đi. \n\n## Độ phức tạp\n- Thời gian: n*log(n)\n- Bộ nhớ: O(n)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-03T04:05:27.230Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-03T04:05:27.230Z"
     }
   ]
 }
