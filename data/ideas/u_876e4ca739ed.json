@@ -136,10 +136,10 @@
     {
       "id": "ID-0009",
       "problemId": "P-0012",
-      "status": "REJECTED",
+      "status": "PENDING",
       "version": 1,
-      "contentMd": "## Hướng tiếp cận\nDùng 2 con trỏ xuất phát lần lượt từ i; 1 biến đếm số chuỗi hợp lệ\nLần lượt tăng trỏ phải lên để tạo ra các chuỗi con bắt dầu từ i, mỗi chuỗi con xuất phát từ i sẽ tạo ra 1 map lưu trữ, mỗi phần tử duyệt qua sẽ kiểm tra xem đã tồn tại trong map hay chưa, nếu chưa thì + biến đếm ptu độc lập lên. đến khi biến đó chạm k thì + biến đếm chuỗi. Khi biến đó > k thì sẽ phải bắt đầu loại chuỗi mới từ i + 1 và set Map. \n## Độ phức tạp\n- Thời gian: O(N^2)\n- Bộ nhớ: mỗi chuỗi con là 1 Map lưu trữ O(N^2)\n\n## Trường hợp biên\n- ",
-      "submittedAt": "2026-09-02T16:08:28.947Z",
+      "contentMd": "## Hướng tiếp cận\nĐếm số đoạn con <= K trừ đi số đoạn con <= K - 1.\nDùng 2 con trỏ;\nBC; l = 0, r = 0;\nMỗi lần duyệt qua nums[r], dùng 1 map lưu trữ để check xem phần tử nums[r] đã tồn tại trong Map chưa ? nếu chưa thì set, nếu rồi thì tăng giá trị trong map của nó lên 1. Số đoạn con thỏa mãn điều kiện sẽ là r - l + 1. Nếu map size > k tức là số phần tử độc lập đã nhiều hơn, cần tăng l lên đến khi thỏa mãn <= k.Thực hiện việc đó bằng cách lần lượt giảm giá trị của map(nums[l) đi 1 đơn vị, đồng thời tăng l lên. Nếu giá trị = 0 thì xóa khỏi mảng. \nTrả về [Số đoạn thỏa mãn <= K trừ Số đoạn thỏa mãn <= K - 1] => số đoạn đúng bằng K\n## Độ phức tạp\n- Thời gian: O(N)\n- Bộ nhớ: mỗi chuỗi con là 1 Map lưu trữ O(N)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-03T03:18:39.165Z",
       "review": {
         "reviewerId": "u_876e4ca739ed",
         "decision": "REJECTED",
@@ -148,7 +148,7 @@
       },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-03T01:17:12.142Z"
+      "updatedAt": "2026-09-03T03:18:39.165Z"
     }
   ]
 }
