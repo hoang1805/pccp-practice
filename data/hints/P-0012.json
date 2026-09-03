@@ -10,8 +10,12 @@
       "contentMd": "js ko tối ưu for lắm, dùng N^2 hơi sát time nên dễ TLE",
       "createdBy": "u_876e4ca739ed",
       "createdAt": "2026-09-03T01:19:11.517Z",
-      "updatedAt": "2026-09-03T01:19:11.517Z",
-      "feedback": null
+      "updatedAt": "2026-09-03T01:51:26.144Z",
+      "feedback": {
+        "helpful": false,
+        "at": "2026-09-03T01:51:26.144Z",
+        "by": "u_876e4ca739ed"
+      }
     },
     {
       "id": "H-0002",
@@ -21,8 +25,12 @@
       "contentMd": "Thay vì đếm các đoạn bằng K, nên đếm đoạn <= K rồi trừ đi đoạn <= K-1",
       "createdBy": "u_876e4ca739ed",
       "createdAt": "2026-09-03T01:21:52.593Z",
-      "updatedAt": "2026-09-03T01:21:52.593Z",
-      "feedback": null
+      "updatedAt": "2026-09-03T01:51:28.453Z",
+      "feedback": {
+        "helpful": true,
+        "at": "2026-09-03T01:51:28.453Z",
+        "by": "u_876e4ca739ed"
+      }
     }
   ]
 }
