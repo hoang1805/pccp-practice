@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "problemId": "P-0012",
+  "hints": [
+    {
+      "id": "H-0001",
+      "level": 1,
+      "targetUserId": "u_876e4ca739ed",
+      "inResponseToStuck": "TLE ở k = 1000. Tại sao lại như vậy",
+      "contentMd": "js ko tối ưu for lắm, dùng N^2 hơi sát time nên dễ TLE",
+      "createdBy": "u_876e4ca739ed",
+      "createdAt": "2026-09-03T01:19:11.517Z",
+      "updatedAt": "2026-09-03T01:19:11.517Z",
+      "feedback": null
+    }
+  ]
+}
