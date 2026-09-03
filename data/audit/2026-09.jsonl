@@ -46,3 +46,4 @@
 {"at":"2026-09-03T01:51:03.300Z","actor":"u_876e4ca739ed","action":"HINT_REVEAL","target":"P-0012/H-0001","result":"OK"}
 {"at":"2026-09-03T01:51:26.144Z","actor":"u_876e4ca739ed","action":"HINT_FEEDBACK","target":"H-0001","helpful":false,"result":"OK"}
 {"at":"2026-09-03T01:53:21.196Z","actor":"u_876e4ca739ed","action":"HINT_FEEDBACK","target":"H-0002","helpful":false,"result":"OK"}
+{"at":"2026-09-03T03:18:39.165Z","actor":"u_876e4ca739ed","action":"IDEA_SUBMIT","target":"P-0012","result":"OK"}
