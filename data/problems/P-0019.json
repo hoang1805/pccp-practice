@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0019",
+  "title": "Sliding Window Maximum",
+  "level": 3,
+  "tags": [],
+  "statementMd": "Bạn được cung cấp một mảng số nguyên `nums` biểu diễn lưu lượng truy cập mạng. Có một \"cửa sổ trượt\" kích thước `k` di chuyển từ ngoài cùng bên trái sang ngoài cùng bên phải của mảng. Tại mỗi bước, cửa sổ trượt sang phải 1 vị trí.\nBạn chỉ có thể nhìn thấy `k` số trong cửa sổ. Hãy trả về một mảng chứa **giá trị lớn nhất** trong từng cửa sổ trượt đó.",
+  "constraintsMd": "* $1 \\le \\text{nums.length} \\le 10^5$\n* $-10^4 \\le \\text{nums}[i] \\le 10^4$\n* $1 \\le k \\le \\text{nums.length}$",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": null,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-04T01:08:01.796Z",
+  "updatedAt": "2026-09-04T01:08:01.796Z"
+}
