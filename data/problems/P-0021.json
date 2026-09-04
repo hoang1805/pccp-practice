@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0021",
+  "title": "Making A Large Island",
+  "level": 2,
+  "tags": [],
+  "statementMd": "Cho một ma trận nhị phân `grid` $N \\times N$. Số 1 đại diện cho đất liền, số 0 đại diện cho nước. Một hòn đảo là một nhóm các số 1 kết nối 4 hướng.\nBạn được cấp 1 đặc quyền: **Chuyển đổi tối đa MỘT số 0 thành số 1**.\nHãy trả về diện tích lớn nhất của hòn đảo mà bạn có thể tạo ra.",
+  "constraintsMd": "* $N == \\text{grid.length} == \\text{grid}[i].\\text{length}$\n* $1 \\le N \\le 500$",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/making-a-large-island/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": null,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-04T01:14:52.174Z",
+  "updatedAt": "2026-09-04T01:14:52.174Z"
+}
