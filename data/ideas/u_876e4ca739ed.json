@@ -136,19 +136,19 @@
     {
       "id": "ID-0009",
       "problemId": "P-0012",
-      "status": "PENDING",
+      "status": "APPROVED",
       "version": 1,
       "contentMd": "## Hướng tiếp cận\nĐếm số đoạn con <= K trừ đi số đoạn con <= K - 1.\nDùng 2 con trỏ;\nBC; l = 0, r = 0;\nMỗi lần duyệt qua nums[r], dùng 1 map lưu trữ để check xem phần tử nums[r] đã tồn tại trong Map chưa ? nếu chưa thì set, nếu rồi thì tăng giá trị trong map của nó lên 1. Số đoạn con thỏa mãn điều kiện sẽ là r - l + 1. Nếu map size > k tức là số phần tử độc lập đã nhiều hơn, cần tăng l lên đến khi thỏa mãn <= k.Thực hiện việc đó bằng cách lần lượt giảm giá trị của map(nums[l) đi 1 đơn vị, đồng thời tăng l lên. Nếu giá trị = 0 thì xóa khỏi mảng. \nTrả về [Số đoạn thỏa mãn <= K trừ Số đoạn thỏa mãn <= K - 1] => số đoạn đúng bằng K\n## Độ phức tạp\n- Thời gian: O(N)\n- Bộ nhớ: mỗi chuỗi con là 1 Map lưu trữ O(N)\n\n## Trường hợp biên\n- ",
       "submittedAt": "2026-09-03T03:18:39.165Z",
       "review": {
         "reviewerId": "u_876e4ca739ed",
-        "decision": "REJECTED",
-        "commentMd": "Làm O(N) đi a",
-        "reviewedAt": "2026-09-03T01:17:12.141Z"
+        "decision": "APPROVED",
+        "commentMd": "",
+        "reviewedAt": "2026-09-04T01:05:23.577Z"
       },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-03T03:18:39.165Z"
+      "updatedAt": "2026-09-04T01:05:23.577Z"
     },
     {
       "id": "ID-0010",
