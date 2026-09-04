@@ -170,14 +170,19 @@
     {
       "id": "ID-0011",
       "problemId": "P-0015",
-      "status": "PENDING",
+      "status": "NEEDS_REVISION",
       "version": 1,
       "contentMd": "## Hướng tiếp cận\nDùng 1 mảng prefix sum. Tổng quát các mảng con [l, r] có tổng bằng k => prefix[r] - prefix[l-1] = k => prefix[r] = k + prefix[l-1]; \nDuyệt một lần qua mảng prefix theo r để tìm số giá trị prefix [l-1] tương ứng. Nhận ra nếu tồn tại giá trị prefix[l-1] thỏa mãn thì ta đã phải duyệt qua nó. Vì vậy dùng 1 hashmap lưu tần suất của mỗi giá trị prefix. Nếu thỏa mãn Map có prefix[r] - k thì + tần suất lên.\n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(n+1)\n\n## Trường hợp biên\n- ",
       "submittedAt": "2026-09-04T03:06:44.036Z",
-      "review": null,
+      "review": {
+        "reviewerId": "u_876e4ca739ed",
+        "decision": "NEEDS_REVISION",
+        "commentMd": "thế phải là prefix[l - 1] = prefix[r] - k chứ nhỉ",
+        "reviewedAt": "2026-09-04T03:48:38.191Z"
+      },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-04T03:06:44.036Z"
+      "updatedAt": "2026-09-04T03:48:38.191Z"
     }
   ]
 }
