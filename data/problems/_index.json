@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-04T01:14:52.174Z",
+  "generatedAt": "2026-09-04T01:19:04.640Z",
   "problems": [
     {
       "id": "P-0001",
@@ -217,6 +217,15 @@
       "estimatedMinutes": null,
       "archived": false,
       "updatedAt": "2026-09-04T01:14:52.174Z"
+    },
+    {
+      "id": "P-0022",
+      "title": "Find K-th Smallest Pair Distance",
+      "level": 3,
+      "tags": [],
+      "estimatedMinutes": 67,
+      "archived": false,
+      "updatedAt": "2026-09-04T01:19:04.640Z"
     }
   ]
 }
