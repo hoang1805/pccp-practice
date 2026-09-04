@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T15:30:13.559Z",
+  "generatedAt": "2026-09-04T01:08:01.796Z",
   "problems": [
     {
       "id": "P-0001",
@@ -190,6 +190,15 @@
       "estimatedMinutes": 30,
       "archived": false,
       "updatedAt": "2026-09-02T15:30:13.559Z"
+    },
+    {
+      "id": "P-0019",
+      "title": "Sliding Window Maximum",
+      "level": 3,
+      "tags": [],
+      "estimatedMinutes": null,
+      "archived": false,
+      "updatedAt": "2026-09-04T01:08:01.796Z"
     }
   ]
 }
