@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0020",
+  "title": "Longest Increasing Subsequence",
+  "level": 2,
+  "tags": [],
+  "statementMd": "Cho một mảng số nguyên `nums`. Hãy tìm chiều dài của **chuỗi con tăng ngặt** (strictly increasing subsequence) dài nhất.\n*Lưu ý: Chuỗi con không nhất thiết phải bao gồm các phần tử liên tiếp nhau trong mảng gốc.*",
+  "constraintsMd": "* $1 \\le \\text{nums.length} \\le 2500$ \n* $-10^4 \\le \\text{nums}[i] \\le 10^4$",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": 30,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-04T01:12:23.607Z",
+  "updatedAt": "2026-09-04T01:12:23.607Z"
+}
