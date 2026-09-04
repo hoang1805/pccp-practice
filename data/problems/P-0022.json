@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "P-0022",
+  "title": "Find K-th Smallest Pair Distance",
+  "level": 3,
+  "tags": [],
+  "statementMd": "Cho một mảng số nguyên `nums` và một số nguyên `k`.\nKhoảng cách giữa một cặp số `(nums[i], nums[j])` được định nghĩa là giá trị tuyệt đối `|nums[i] - nums[j]|` (với $0 \\le i < j < \\text{nums.length}$).\nHãy tìm khoảng cách **nhỏ thứ k** trong TẤT CẢ các khoảng cách của các cặp số có thể tạo ra từ mảng.",
+  "constraintsMd": "* $n == \\text{nums.length}$\n* $2 \\le n \\le 10^5$\n* $0 \\le \\text{nums}[i] \\le 10^6$\n* $1 \\le k \\le \\frac{n(n - 1)}{2}$",
+  "samples": [],
+  "sourceUrl": "https://leetcode.com/problems/find-k-th-smallest-pair-distance/",
+  "sourceNote": "",
+  "difficultyNote": "",
+  "recommendedLanguages": [],
+  "estimatedMinutes": 67,
+  "archived": false,
+  "createdBy": "u_876e4ca739ed",
+  "createdAt": "2026-09-04T01:19:04.640Z",
+  "updatedAt": "2026-09-04T01:19:04.640Z"
+}
