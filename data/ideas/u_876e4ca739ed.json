@@ -195,6 +195,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-05T09:13:47.570Z"
+    },
+    {
+      "id": "ID-0013",
+      "problemId": "P-0017",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nVới mỗi giá trị effort, kiểm tra xem có tồn tại đường đi nào từ (0, 0) tới (rows - 1, cols - 1) hay không. Kiểm tra điều đó = bfs, thêm vào queue ô thỏa mãn Math.abs(heights[r][c] - heights[newR][newC]) <= effort. Binary search dựa trên effort với l = 0, r = 10^6\n\n## Độ phức tạp\n- Thời gian: O(log2(10^6) * rows * cols)\n- Bộ nhớ: O(rows * cols)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-05T14:43:31.810Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-05T14:43:31.810Z"
     }
   ]
 }
