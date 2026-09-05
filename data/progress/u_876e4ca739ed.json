@@ -297,16 +297,16 @@
     },
     {
       "problemId": "P-0017",
-      "status": "IN_PROGRESS",
+      "status": "COMPLETED",
       "stuckReason": "",
       "stuckSince": null,
       "startedAt": "2026-09-05T14:39:49.895Z",
-      "completedAt": null,
-      "timeSpentMinutes": 0,
-      "selfScore": null,
-      "language": null,
+      "completedAt": "2026-09-05T14:43:48.089Z",
+      "timeSpentMinutes": 4,
+      "selfScore": 200,
+      "language": "JavaScript",
       "codeUrl": "",
-      "perceivedDifficulty": null,
+      "perceivedDifficulty": 3,
       "hintsRevealed": [],
       "solutionViewedAt": null,
       "statusHistory": [
@@ -314,9 +314,14 @@
           "from": "NOT_STARTED",
           "to": "IN_PROGRESS",
           "at": "2026-09-05T14:39:49.895Z"
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "COMPLETED",
+          "at": "2026-09-05T14:43:48.089Z"
         }
       ],
-      "updatedAt": "2026-09-05T14:39:49.895Z",
+      "updatedAt": "2026-09-05T14:43:48.089Z",
       "lastResumedAt": "2026-09-05T14:39:49.895Z"
     }
   ]
