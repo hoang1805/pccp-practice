@@ -183,6 +183,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-04T03:48:38.191Z"
+    },
+    {
+      "id": "ID-0012",
+      "problemId": "P-0016",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nTìm kiếm nhị phân X giá trị tổng thỏa mãn. \nBiên trái: Giá trị lớn nhất trong mảng nums (trường hợp đoạn con lớn nhất chỉ có 1 phần tử)\nBiển phải: Tông giá trị phần tử của nums (trường hợp chỉ có 1 mảng con)\n\nVới mỗi X thu được, kiểm tra xem có thể chia mảng nums thành <= k đoạn có tổng <= X hay không, nếu không thì tăng X lên (thu hẹp cực trái), nếu có thì hạ X xuống \n\n## Độ phức tạp\n- Thời gian: O(log(n) * nums.length)\n- Bộ nhớ: O(1);\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-05T09:13:47.570Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-05T09:13:47.570Z"
     }
   ]
 }
