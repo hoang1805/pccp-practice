@@ -245,12 +245,12 @@
     },
     {
       "problemId": "P-0016",
-      "status": "IN_PROGRESS",
-      "stuckReason": "",
-      "stuckSince": null,
+      "status": "HARD_STUCK",
+      "stuckReason": "Câu hỏi: vì sao có thể dùng tham lam để đếm được số mảng chia được có tổng <= X + Vì sao có thể chắc chắn rằng 1 trong số những tổng từ binary search thu được là tổng thực tế của 1 mảng con trong mảng nums.",
+      "stuckSince": "2026-09-05T09:28:06.534Z",
       "startedAt": "2026-09-05T09:26:45.068Z",
       "completedAt": null,
-      "timeSpentMinutes": 0,
+      "timeSpentMinutes": 1,
       "selfScore": null,
       "language": null,
       "codeUrl": "",
@@ -262,9 +262,14 @@
           "from": "NOT_STARTED",
           "to": "IN_PROGRESS",
           "at": "2026-09-05T09:26:45.068Z"
+        },
+        {
+          "from": "IN_PROGRESS",
+          "to": "HARD_STUCK",
+          "at": "2026-09-05T09:28:06.534Z"
         }
       ],
-      "updatedAt": "2026-09-05T09:26:45.068Z",
+      "updatedAt": "2026-09-05T09:28:06.534Z",
       "lastResumedAt": "2026-09-05T09:26:45.068Z"
     }
   ]
