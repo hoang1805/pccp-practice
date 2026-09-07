@@ -204,14 +204,19 @@
     {
       "id": "ID-0013",
       "problemId": "P-0017",
-      "status": "PENDING",
+      "status": "APPROVED",
       "version": 1,
       "contentMd": "## Hướng tiếp cận\nVới mỗi giá trị effort, kiểm tra xem có tồn tại đường đi nào từ (0, 0) tới (rows - 1, cols - 1) hay không. Kiểm tra điều đó = bfs, thêm vào queue ô thỏa mãn Math.abs(heights[r][c] - heights[newR][newC]) <= effort. Binary search dựa trên effort với l = 0, r = 10^6\n\n## Độ phức tạp\n- Thời gian: O(log2(10^6) * rows * cols)\n- Bộ nhớ: O(rows * cols)\n\n## Trường hợp biên\n- ",
       "submittedAt": "2026-09-05T14:43:31.810Z",
-      "review": null,
+      "review": {
+        "reviewerId": "u_876e4ca739ed",
+        "decision": "APPROVED",
+        "commentMd": "",
+        "reviewedAt": "2026-09-07T03:34:24.674Z"
+      },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-05T14:43:31.810Z"
+      "updatedAt": "2026-09-07T03:34:24.674Z"
     },
     {
       "id": "ID-0014",
