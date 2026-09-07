@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "problemId": "P-0014",
+  "hints": [
+    {
+      "id": "H-0001",
+      "level": 1,
+      "targetUserId": "u_876e4ca739ed",
+      "inResponseToStuck": "Khi quay lui nhánh cần loại bỏ key và lock đã đi qua ở nhánh đó khỏi danh sách đã kiếm được",
+      "contentMd": "dùng bitmask",
+      "createdBy": "u_876e4ca739ed",
+      "createdAt": "2026-09-07T07:51:51.384Z",
+      "updatedAt": "2026-09-07T07:51:51.384Z",
+      "feedback": null
+    }
+  ]
+}
