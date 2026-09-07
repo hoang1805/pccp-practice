@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "problemId": "P-0016",
+  "hints": [
+    {
+      "id": "H-0001",
+      "level": 1,
+      "targetUserId": "u_876e4ca739ed",
+      "inResponseToStuck": "Câu hỏi: vì sao có thể dùng tham lam để đếm được số mảng chia được có tổng <= X + Vì sao có thể chắc chắn rằng 1 trong số những tổng từ binary search thu được là tổng thực tế của 1 mảng con trong mảng nums.",
+      "contentMd": "mình cần tham lam để tối ưu hóa tổng --> tổng lớn nhất ko vượt quá X --> tìm được tổng thật. Vì nếu đáp án của mình là X, mà khi mình tìm kiếm X + 1 thỏa mãn, mình vẫn có thể giảm cận để tìm tổng thật là X mà",
+      "createdBy": "u_876e4ca739ed",
+      "createdAt": "2026-09-07T03:38:17.098Z",
+      "updatedAt": "2026-09-07T03:38:17.098Z",
+      "feedback": null
+    }
+  ]
+}
