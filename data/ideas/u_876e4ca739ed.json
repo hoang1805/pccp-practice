@@ -221,14 +221,19 @@
     {
       "id": "ID-0014",
       "problemId": "P-0014",
-      "status": "PENDING",
+      "status": "APPROVED",
       "version": 1,
       "contentMd": "## Hướng tiếp cận\nChạy 1 vòng for lồng m x n để tìm tọa độ START, END, [KEYS], [LOCKS];\nBFS để tìm đường đi ngắn nhất, dùng Map lưu key đã collect để kiểm tra nếu gặp Lock và có thể đi qua.\n\n## Độ phức tạp\n- Thời gian: O(m x n)\n- Bộ nhớ: 0(m x n)\n\n## Trường hợp biên\n- ",
       "submittedAt": "2026-09-06T03:07:39.173Z",
-      "review": null,
+      "review": {
+        "reviewerId": "u_876e4ca739ed",
+        "decision": "APPROVED",
+        "commentMd": "",
+        "reviewedAt": "2026-09-07T03:34:29.569Z"
+      },
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-06T03:07:39.173Z"
+      "updatedAt": "2026-09-07T03:34:29.569Z"
     }
   ]
 }
