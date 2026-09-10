@@ -352,6 +352,30 @@
       ],
       "updatedAt": "2026-09-06T03:34:00.964Z",
       "lastResumedAt": "2026-09-06T03:05:27.366Z"
+    },
+    {
+      "problemId": "P-0019",
+      "status": "IN_PROGRESS",
+      "stuckReason": "",
+      "stuckSince": null,
+      "startedAt": "2026-09-10T08:21:56.471Z",
+      "completedAt": null,
+      "timeSpentMinutes": 0,
+      "selfScore": null,
+      "language": null,
+      "codeUrl": "",
+      "perceivedDifficulty": null,
+      "hintsRevealed": [],
+      "solutionViewedAt": null,
+      "statusHistory": [
+        {
+          "from": "NOT_STARTED",
+          "to": "IN_PROGRESS",
+          "at": "2026-09-10T08:21:56.471Z"
+        }
+      ],
+      "updatedAt": "2026-09-10T08:21:56.471Z",
+      "lastResumedAt": "2026-09-10T08:21:56.471Z"
     }
   ]
 }
