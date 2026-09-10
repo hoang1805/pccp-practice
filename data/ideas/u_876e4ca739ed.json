@@ -234,6 +234,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-07T03:34:29.569Z"
+    },
+    {
+      "id": "ID-0015",
+      "problemId": "P-0019",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nDùng 1 Dequeue để duy trì 1 mảng theo thứ tự luôn giảm (lưu index), khi thêm phần tử mới lớn hơn giá trị cuối stack thì pop dequeue đến khi nào phần tử thêm vào là phần tử nhỏ nhất ở trong dequeue. Khi duyệt đến index >= k thì nghĩa ra mỗi lần duyệt ta ta có 1 mảng trượt mới => cần check xem front của dequeue có index nằm trong khoảng index - k hay không. Nằm ngoài thì cần pop phần tử đầu dequeue ra (phần tử này đã không còn nằm trong sliding window đang duyệt). Mỗi thao tác duyệt thêm phần tử đầu của dequeue vào mảng kết quả.\n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(n)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-10T09:59:23.377Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-10T09:59:23.377Z"
     }
   ]
 }
