@@ -251,6 +251,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-11T02:17:15.545Z"
+    },
+    {
+      "id": "ID-0016",
+      "problemId": "P-0020",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nDP. Gọi dp[i] là độ dài chuỗi con tăng lớn nhất xuất phát từ 0 -> i. Duyệt j từ 0 -> i (nếu thỏa mãn nums[j] < nums[i] và dp[j] > max - max là độ dài chuỗi con lớn nhất có thể tạo từ 0 -> i - 1.\n\n## Độ phức tạp\n- Thời gian: O(N^2)\n- Bộ nhớ: O(N)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-11T04:12:19.616Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-11T04:12:19.616Z"
     }
   ]
 }
