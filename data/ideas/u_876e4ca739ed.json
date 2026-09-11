@@ -282,6 +282,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-11T07:17:02.495Z"
+    },
+    {
+      "id": "ID-0018",
+      "problemId": "P-0005",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nDuyệt ma trận để tìm vị trí các cổng (lưu Map theo mẫu key(chìa khóa) - value (tọa độ ị,j)\nBFS thông thường. Nếu đi vào ô có cổng dịch chuyển thì check thêm trường hợp đi vào cổng. Sau khi đã sử dụng cổng thì không cần sử dụng lại cổng đó nữa do lần đầu đi qua cổng sẽ tìm được luôn đường đi tối ưu nhất thông qua cổng đó.\nNếu chạm được đến điểm r-1, c-1 thì in ra số bước.\n\n## Độ phức tạp\n- Thời gian: O(M x N)\n- Bộ nhớ: O(26*log(M x N)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-11T12:25:41.934Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-11T12:25:41.934Z"
     }
   ]
 }
