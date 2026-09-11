@@ -411,7 +411,7 @@
       "stuckReason": "",
       "stuckSince": null,
       "startedAt": null,
-      "completedAt": "2026-09-11T08:15:02.054Z",
+      "completedAt": "2026-09-11T08:16:17.557Z",
       "timeSpentMinutes": 35,
       "selfScore": 200,
       "language": "JavaScript",
@@ -423,10 +423,10 @@
         {
           "from": "NOT_STARTED",
           "to": "COMPLETED",
-          "at": "2026-09-11T08:15:02.054Z"
+          "at": "2026-09-11T08:16:17.557Z"
         }
       ],
-      "updatedAt": "2026-09-11T08:15:02.054Z"
+      "updatedAt": "2026-09-11T08:16:17.557Z"
     }
   ]
 }
