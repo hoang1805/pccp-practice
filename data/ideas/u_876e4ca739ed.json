@@ -22,19 +22,26 @@
     {
       "id": "ID-0002",
       "problemId": "P-0008",
-      "status": "NEEDS_REVISION",
-      "version": 1,
-      "contentMd": "## Hướng tiếp cận\nTìm đường đi ngắn nhất, luôn ưu tiên đi xuống và sang trái, sau đó lặp lại nước đi\n\n## Độ phức tạp\n- Thời gian: O(k)\n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
-      "submittedAt": "2026-08-31T08:40:25.707Z",
-      "review": {
-        "reviewerId": "u_876e4ca739ed",
-        "decision": "NEEDS_REVISION",
-        "commentMd": "sai nhé a, đường đi ngắn nhất chỉ để check điều kiện xem có tồn tại đường đi hay ko thôi",
-        "reviewedAt": "2026-08-31T09:59:59.923Z"
-      },
-      "history": [],
+      "status": "PENDING",
+      "version": 2,
+      "contentMd": "## Hướng tiếp cận\nFor step từ 0 -> k. Tham lam tất cả các hướng nhưng ưu tiên thêm phần tử mới queue theo thứ tự bảng chữ cái d(1, 0); l(0, -1); r(0, 1); u(-1, 0). Thêm điều kiện kiểm tra hợp lệ khi thêm phần tư là nếu đi vào điểm đó thì còn cơ hội đi tới đích với k bước hay không ? dis là khoảng cách từ điểm đó tới điểm đích, step là số bước đã đi\n- dis - step > k;\n- dis - step <= k nhưng (dis - step) % 2 !== 0 (đi quá nhưng không thể quay đầu)\n\nThêm phần tử họp lệ vào mảng kết quả và tăng số bước lên\n\n## Độ phức tạp\n- Thời gian: O(step)\n- Bộ nhớ: O(1)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-11T09:23:12.483Z",
+      "review": null,
+      "history": [
+        {
+          "version": 1,
+          "contentMd": "## Hướng tiếp cận\nTìm đường đi ngắn nhất, luôn ưu tiên đi xuống và sang trái, sau đó lặp lại nước đi\n\n## Độ phức tạp\n- Thời gian: O(k)\n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
+          "submittedAt": "2026-08-31T08:40:25.707Z",
+          "review": {
+            "reviewerId": "u_876e4ca739ed",
+            "decision": "NEEDS_REVISION",
+            "commentMd": "sai nhé a, đường đi ngắn nhất chỉ để check điều kiện xem có tồn tại đường đi hay ko thôi",
+            "reviewedAt": "2026-08-31T09:59:59.923Z"
+          }
+        }
+      ],
       "isPublic": false,
-      "updatedAt": "2026-08-31T09:59:59.923Z"
+      "updatedAt": "2026-09-11T09:23:12.483Z"
     },
     {
       "id": "ID-0003",
