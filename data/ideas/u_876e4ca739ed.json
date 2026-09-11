@@ -90,14 +90,14 @@
     {
       "id": "ID-0006",
       "problemId": "P-0001",
-      "status": "DRAFT",
+      "status": "PENDING",
       "version": 1,
-      "contentMd": "## Hướng tiếp cận\nDuyệt các \n\n## Độ phức tạp\n- Thời gian: \n- Bộ nhớ: \n\n## Trường hợp biên\n- ",
-      "submittedAt": null,
+      "contentMd": "## Hướng tiếp cận\nToán: Tổng của 2 phần tử sẽ chia hết cho k nếu tổng phần dư của chúng chia hết cho k;\nÝ tưởng: Khi duyệt qua mỗi phần tử i sẽ thực hiện lưu i % k vào 1 Map, nếu đã tồn tại thì i % k trong Map thì + 1 vào giá trị. Đồng thời kiểm tra xem có giá trị k - (i % k) trong Map đã tồn tại chưa. Nếu rồi thì cộng giá trị vào kết quả.\n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(n)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-11T08:53:25.832Z",
       "review": null,
       "history": [],
       "isPublic": false,
-      "updatedAt": "2026-09-01T04:11:15.112Z"
+      "updatedAt": "2026-09-11T08:53:25.832Z"
     },
     {
       "id": "ID-0007",
