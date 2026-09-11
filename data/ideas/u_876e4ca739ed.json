@@ -263,6 +263,18 @@
       "history": [],
       "isPublic": false,
       "updatedAt": "2026-09-11T04:12:19.616Z"
+    },
+    {
+      "id": "ID-0017",
+      "problemId": "P-0021",
+      "status": "PENDING",
+      "version": 1,
+      "contentMd": "## Hướng tiếp cận\nTôi sẽ dùng BFS để đếm số vùng liên thông (island) và 1 mảng để lưu trữ số thứ tự của vùng liên thông (từ 2 -> 500) và số lượng phần tử tương ứng mỗi vùng. Khởi tạo max ban đầu là số lượng của vùng liên thông lớn nhất. Sau đó duyệt qua từng phần tử trong ma trận nếu phần tử bằng 0 thì ta sẽ kiểm tra 4 hướng lân cận là các phần tử của vùng liên tthông nào và tính tổng số phần tử tạo được từ vùng liên thông mới (nếu có) = số phần tử của các vùng liên thông lân cận điểm đó + 1). Nếu lớn hơn max thì set lại max\n\n## Độ phức tạp\n- Thời gian: O(n)\n- Bộ nhớ: O(1)\n\n## Trường hợp biên\n- ",
+      "submittedAt": "2026-09-11T07:17:02.495Z",
+      "review": null,
+      "history": [],
+      "isPublic": false,
+      "updatedAt": "2026-09-11T07:17:02.495Z"
     }
   ]
 }
